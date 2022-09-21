@@ -19,6 +19,14 @@ class FirstSplash extends StatelessWidget {
                 height: 140,
               ),
             ),
+            SizedBox(height: 170),
+            Text(
+              'V E N T U R E',
+              style: GoogleFonts.dmSerifDisplay(
+                color: Color(0xffFFFFFF),
+                fontSize: 32,
+              ),
+            ),
           ],
         ),
       ),
