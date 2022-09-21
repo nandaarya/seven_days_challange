@@ -8,27 +8,27 @@ class FirstSplash extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xff13131E),
-      body: Padding(
-        padding: const EdgeInsets.only(right: 118.0, left: 118.0, top: 230.0),
-        child: Column(
-          children: [
-            Center(
+      body: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.only(right: 118.0, left: 118.0, top: 230.0),
+            child: Center(
               child: Image.asset(
                 'assets/images/sword_icon.png',
                 width: 140,
                 height: 140,
               ),
             ),
-            SizedBox(height: 170),
-            Text(
-              'V E N T U R E',
-              style: GoogleFonts.dmSerifDisplay(
-                color: Color(0xffFFFFFF),
-                fontSize: 32,
-              ),
+          ),
+          SizedBox(height: 170),
+          Text(
+            'V E N T U R E',
+            style: GoogleFonts.dmSerifDisplay(
+              color: Color(0xffFFFFFF),
+              fontSize: 32,
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
