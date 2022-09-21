@@ -23,7 +23,7 @@ class SecondSplash extends StatelessWidget {
                 height: 51,
               ),
               Text(
-                  'HouseQu',
+                'HouseQu',
                 style: GoogleFonts.montserrat(
                   color: Color(0xff000000),
                   fontWeight: FontWeight.bold,
