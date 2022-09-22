@@ -29,6 +29,7 @@ class FirstStarted extends StatelessWidget {
                       fontWeight: FontWeight.w600,
                     ),
                   ),
+                  SizedBox(height: 16),
                   Text(
                       'Gain more profit from cryptocurrency without any risk involved',
                     style: GoogleFonts.poppins(
