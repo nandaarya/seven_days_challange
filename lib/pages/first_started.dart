@@ -38,6 +38,7 @@ class FirstStarted extends StatelessWidget {
                       fontWeight: FontWeight.normal,
                     ),
                   ),
+                  SizedBox(height: 50),
                   Image.asset(
                     'assets/images/purple_icon.png',
                     width: 80, height: 80,
