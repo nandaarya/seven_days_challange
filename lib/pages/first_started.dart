@@ -20,7 +20,10 @@ class FirstStarted extends StatelessWidget {
               children: [
                 Text('Maximize Revenue'),
                 Text('Gain more profit from cryptocurrency without any risk involved'),
-                Image.asset('assets/images/purple_icon.png'),
+                Image.asset(
+                  'assets/images/purple_icon.png',
+                  width: 80, height: 80,
+                ),
               ],
             ),
           ),
