@@ -21,21 +21,27 @@ class FirstStarted extends StatelessWidget {
               padding: const EdgeInsets.only(top: 527.0),
               child: Column(
                 children: [
-                  Text(
-                      'Maximize Revenue',
-                    style: GoogleFonts.poppins(
-                      color: Color(0xffFFFFFF),
-                      fontSize: 24,
-                      fontWeight: FontWeight.w600,
+                  Padding(
+                    padding: const EdgeInsets.only(left: 74.0, right: 74.0),
+                    child: Text(
+                        'Maximize Revenue',
+                      style: GoogleFonts.poppins(
+                        color: Color(0xffFFFFFF),
+                        fontSize: 24,
+                        fontWeight: FontWeight.w600,
+                      ),
                     ),
                   ),
                   SizedBox(height: 16),
-                  Text(
-                      'Gain more profit from cryptocurrency without any risk involved',
-                    style: GoogleFonts.poppins(
-                      color : Color(0xffFFFFFF),
-                      fontSize: 16,
-                      fontWeight: FontWeight.normal,
+                  Padding(
+                    padding: const EdgeInsets.only(left: 39.0, right: 36.0),
+                    child: Text(
+                        'Gain more profit from cryptocurrency without any risk involved',
+                      style: GoogleFonts.poppins(
+                        color : Color(0xffFFFFFF),
+                        fontSize: 16,
+                        fontWeight: FontWeight.normal,
+                      ),
                     ),
                   ),
                   SizedBox(height: 50),
