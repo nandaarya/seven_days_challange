@@ -15,6 +15,15 @@ class FirstStarted extends StatelessWidget {
                   fit: BoxFit.cover),
             ),
           ),
+          Container(
+            child: Column(
+              children: [
+                Text('Maximize Revenue'),
+                Text('Gain more profit from cryptocurrency without any risk involved'),
+                Image.asset('assets/images/purple_icon.png'),
+              ],
+            ),
+          ),
         ],
       ),
     );
