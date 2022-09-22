@@ -16,15 +16,18 @@ class FirstStarted extends StatelessWidget {
             ),
           ),
           Container(
-            child: Column(
-              children: [
-                Text('Maximize Revenue'),
-                Text('Gain more profit from cryptocurrency without any risk involved'),
-                Image.asset(
-                  'assets/images/purple_icon.png',
-                  width: 80, height: 80,
-                ),
-              ],
+            child: Padding(
+              padding: const EdgeInsets.only(top: 527.0),
+              child: Column(
+                children: [
+                  Text('Maximize Revenue'),
+                  Text('Gain more profit from cryptocurrency without any risk involved'),
+                  Image.asset(
+                    'assets/images/purple_icon.png',
+                    width: 80, height: 80,
+                  ),
+                ],
+              ),
             ),
           ),
         ],
