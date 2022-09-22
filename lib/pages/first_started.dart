@@ -44,10 +44,13 @@ class FirstStarted extends StatelessWidget {
                       ),
                     ),
                   ),
-                  SizedBox(height: 50),
-                  Image.asset(
-                    'assets/images/purple_icon.png',
-                    width: 80, height: 80,
+                  SizedBox(height: 40),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 148.0, right: 147.0),
+                    child: Image.asset(
+                      'assets/images/purple_icon.png',
+                      width: 80, height: 80,
+                    ),
                   ),
                 ],
               ),
