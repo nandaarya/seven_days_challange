@@ -37,6 +37,7 @@ class FirstStarted extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 39.0, right: 36.0),
                     child: Text(
                         'Gain more profit from cryptocurrency without any risk involved',
+                      textAlign: TextAlign.center,
                       style: GoogleFonts.poppins(
                         color : Color(0xffFFFFFF),
                         fontSize: 16,
