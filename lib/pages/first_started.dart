@@ -29,7 +29,14 @@ class FirstStarted extends StatelessWidget {
                       fontWeight: FontWeight.w600,
                     ),
                   ),
-                  Text('Gain more profit from cryptocurrency without any risk involved'),
+                  Text(
+                      'Gain more profit from cryptocurrency without any risk involved',
+                    style: GoogleFonts.poppins(
+                      color : Color(0xffFFFFFF),
+                      fontSize: 16,
+                      fontWeight: FontWeight.normal,
+                    ),
+                  ),
                   Image.asset(
                     'assets/images/purple_icon.png',
                     width: 80, height: 80,
