@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class FirstStarted extends StatelessWidget {
   const FirstStarted({Key? key}) : super(key: key);
@@ -20,7 +21,14 @@ class FirstStarted extends StatelessWidget {
               padding: const EdgeInsets.only(top: 527.0),
               child: Column(
                 children: [
-                  Text('Maximize Revenue'),
+                  Text(
+                      'Maximize Revenue',
+                    style: GoogleFonts.poppins(
+                      color: Color(0xffFFFFFF),
+                      fontSize: 24,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
                   Text('Gain more profit from cryptocurrency without any risk involved'),
                   Image.asset(
                     'assets/images/purple_icon.png',
