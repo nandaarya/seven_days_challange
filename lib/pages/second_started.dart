@@ -10,7 +10,10 @@ class SecondStarted extends StatelessWidget {
         padding: const EdgeInsets.only(left: 40, right: 40),
         child: Column(
           children: [
-            Text('Health First.'),
+            Padding(
+              padding: const EdgeInsets.only(top: 40),
+              child: Text('Health First.'),
+            ),
             Text('Exercise together with our best community fit in the world'),
             Container(
               height: 402,
