@@ -17,6 +17,7 @@ class SecondStarted extends StatelessWidget {
               child: Text(
                   'Health First.',
                 style: GoogleFonts.poppins(
+                  color: Color(0xff828284),
                   fontSize: 24,
                   fontWeight: FontWeight.w600
                 ),
