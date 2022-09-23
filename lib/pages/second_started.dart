@@ -60,6 +60,7 @@ class SecondStarted extends StatelessWidget {
                   color: Color(0xff757575),
                   fontSize: 16,
                   fontWeight: FontWeight.normal,
+                  decoration: TextDecoration.underline,
                 ),
               ),
             ),
