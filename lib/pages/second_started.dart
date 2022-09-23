@@ -42,11 +42,13 @@ class SecondStarted extends StatelessWidget {
               width: double.infinity,
               height: 55,
               color: Color(0xffAFEA0D),
-              child: Text(
-                  'Shape My Body',
-                style: GoogleFonts.lato(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
+              child: Center(
+                child: Text(
+                    'Shape My Body',
+                  style: GoogleFonts.lato(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
             ),
