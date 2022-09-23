@@ -14,6 +14,7 @@ class SecondStarted extends StatelessWidget {
               padding: const EdgeInsets.only(top: 40),
               child: Text('Health First.'),
             ),
+            SizedBox(height: 16),
             Text('Exercise together with our best community fit in the world'),
             Container(
               height: 402,
