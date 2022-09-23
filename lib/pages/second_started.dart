@@ -27,6 +27,7 @@ class SecondStarted extends StatelessWidget {
               color: Color(0xffAFEA0D),
               child: Text('Shape My Body'),
             ),
+            SizedBox(height: 20),
             Text('Terms & Conditions'),
           ],
         ),
