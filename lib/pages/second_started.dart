@@ -53,12 +53,14 @@ class SecondStarted extends StatelessWidget {
               ),
             ),
             SizedBox(height: 20),
-            Text(
-                'Terms & Conditions',
-              style: GoogleFonts.poppins(
-                color: Color(0xff757575),
-                fontSize: 16,
-                fontWeight: FontWeight.normal,
+            Center(
+              child: Text(
+                  'Terms & Conditions',
+                style: GoogleFonts.poppins(
+                  color: Color(0xff757575),
+                  fontSize: 16,
+                  fontWeight: FontWeight.normal,
+                ),
               ),
             ),
           ],
