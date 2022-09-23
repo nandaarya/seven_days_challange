@@ -17,7 +17,6 @@ class SecondStarted extends StatelessWidget {
               child: Text(
                   'Health First.',
                 style: GoogleFonts.poppins(
-                  color: Color(0xff828284),
                   fontSize: 24,
                   fontWeight: FontWeight.w600
                 ),
@@ -27,6 +26,7 @@ class SecondStarted extends StatelessWidget {
             Text(
                 'Exercise together with our best community fit in the world',
               style: GoogleFonts.poppins(
+                color: Color(0xff828284),
                 fontSize: 16,
                 fontWeight: FontWeight.normal,
               ),
