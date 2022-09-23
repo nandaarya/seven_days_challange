@@ -40,7 +40,13 @@ class SecondStarted extends StatelessWidget {
             Container(
               height: 55,
               color: Color(0xffAFEA0D),
-              child: Text('Shape My Body'),
+              child: Text(
+                  'Shape My Body',
+                style: GoogleFonts.lato(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ),
             SizedBox(height: 20),
             Text('Terms & Conditions'),
