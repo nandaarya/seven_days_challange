@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 class SecondStarted extends StatelessWidget {
   const SecondStarted({Key? key}) : super(key: key);
@@ -36,6 +37,12 @@ class SecondStarted extends StatelessWidget {
             Container(
               height: 402,
               color: Colors.green,
+              child: StaggeredGrid.count(
+                  crossAxisCount: 2,
+                mainAxisSpacing: 4,
+                crossAxisSpacing: 4,
+                children: [],
+              ),
             ),
             SizedBox(height: 61),
             Container(
