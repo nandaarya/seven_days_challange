@@ -16,6 +16,7 @@ class SecondStarted extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Text('Exercise together with our best community fit in the world'),
+            SizedBox(height: 60),
             Container(
               height: 402,
               color: Colors.green,
