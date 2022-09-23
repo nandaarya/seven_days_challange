@@ -39,6 +39,7 @@ class SecondStarted extends StatelessWidget {
             ),
             SizedBox(height: 71),
             Container(
+              width: double.infinity,
               height: 55,
               color: Color(0xffAFEA0D),
               child: Text(
