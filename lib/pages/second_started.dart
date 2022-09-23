@@ -32,12 +32,12 @@ class SecondStarted extends StatelessWidget {
                 fontWeight: FontWeight.normal,
               ),
             ),
-            SizedBox(height: 60),
+            SizedBox(height: 50),
             Container(
               height: 402,
               color: Colors.green,
             ),
-            SizedBox(height: 71),
+            SizedBox(height: 61),
             Container(
               width: double.infinity,
               height: 55,
