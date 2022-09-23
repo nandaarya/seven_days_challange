@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SecondStarted extends StatelessWidget {
   const SecondStarted({Key? key}) : super(key: key);
@@ -12,7 +13,13 @@ class SecondStarted extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.only(top: 40),
-              child: Text('Health First.'),
+              child: Text(
+                  'Health First.',
+                style: GoogleFonts.poppins(
+                  fontSize: 24,
+                  fontWeight: FontWeight.w600
+                ),
+              ),
             ),
             SizedBox(height: 16),
             Text('Exercise together with our best community fit in the world'),
