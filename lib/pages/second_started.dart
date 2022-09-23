@@ -23,7 +23,13 @@ class SecondStarted extends StatelessWidget {
               ),
             ),
             SizedBox(height: 16),
-            Text('Exercise together with our best community fit in the world'),
+            Text(
+                'Exercise together with our best community fit in the world',
+              style: GoogleFonts.poppins(
+                fontSize: 16,
+                fontWeight: FontWeight.normal,
+              ),
+            ),
             SizedBox(height: 60),
             Container(
               height: 402,
