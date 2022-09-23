@@ -10,6 +10,7 @@ class SecondStarted extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.only(left: 40, right: 40),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
               padding: const EdgeInsets.only(top: 40),
