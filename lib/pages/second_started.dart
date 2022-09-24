@@ -38,10 +38,39 @@ class SecondStarted extends StatelessWidget {
               height: 402,
               color: Colors.green,
               child: StaggeredGrid.count(
-                  crossAxisCount: 2,
-                mainAxisSpacing: 4,
-                crossAxisSpacing: 4,
-                children: [],
+                crossAxisCount: 2,
+                mainAxisSpacing: 0,
+                crossAxisSpacing: 0,
+                children: [
+                  StaggeredGridTile.count(
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 2,
+                    child: Container(
+                      color: Colors.black,
+                    ),
+                  ),
+                  StaggeredGridTile.count(
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 1,
+                    child: Container(
+                      color: Colors.red,
+                    ),
+                  ),
+                  StaggeredGridTile.count(
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 2,
+                    child: Container(
+                      color: Colors.yellowAccent,
+                    ),
+                  ),
+                  StaggeredGridTile.count(
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 1,
+                    child: Container(
+                      color: Colors.blue,
+                    ),
+                  ),
+                ],
               ),
             ),
             SizedBox(height: 61),
