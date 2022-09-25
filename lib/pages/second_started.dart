@@ -44,28 +44,28 @@ class SecondStarted extends StatelessWidget {
                 children: [
                   StaggeredGridTile.count(
                     crossAxisCellCount: 1,
-                    mainAxisCellCount: 1.5,
+                    mainAxisCellCount: 1.6,
                     child: Container(
                       color: Colors.black,
                     ),
                   ),
                   StaggeredGridTile.count(
                     crossAxisCellCount: 1,
-                    mainAxisCellCount: 1.1,
+                    mainAxisCellCount: 1,
                     child: Container(
                       color: Colors.red,
                     ),
                   ),
                   StaggeredGridTile.count(
                     crossAxisCellCount: 1,
-                    mainAxisCellCount: 1.5,
+                    mainAxisCellCount: 1.6,
                     child: Container(
                       color: Colors.yellowAccent,
                     ),
                   ),
                   StaggeredGridTile.count(
                     crossAxisCellCount: 1,
-                    mainAxisCellCount: 1.1,
+                    mainAxisCellCount: 1,
                     child: Container(
                       color: Colors.blue,
                     ),
