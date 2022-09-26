@@ -36,7 +36,6 @@ class SecondStarted extends StatelessWidget {
             SizedBox(height: 50),
             Container(
               height: 402,
-              color: Colors.green,
               child: StaggeredGrid.count(
                 crossAxisCount: 2,
                 mainAxisSpacing: 19,
