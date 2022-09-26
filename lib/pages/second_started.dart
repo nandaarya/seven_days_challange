@@ -62,6 +62,10 @@ class SecondStarted extends StatelessWidget {
                     crossAxisCellCount: 1,
                     mainAxisCellCount: 1.6,
                     child: Container(
+                      child: Image.asset(
+                          'assets/images/started_3.png',
+                        fit: BoxFit.cover,
+                      ),
                       color: Colors.yellowAccent,
                     ),
                   ),
