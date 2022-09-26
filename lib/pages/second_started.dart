@@ -53,8 +53,9 @@ class SecondStarted extends StatelessWidget {
                   StaggeredGridTile.count(
                     crossAxisCellCount: 1,
                     mainAxisCellCount: 1,
-                    child: Container(
-                      color: Colors.red,
+                    child: Image.asset(
+                        'assets/images/started_2.png',
+                      fit: BoxFit.cover,
                     ),
                   ),
                   StaggeredGridTile.count(
