@@ -7,6 +7,9 @@ class FirstSignIn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xffE5E5E5),
+      body: Column(
+
+      ),
     );
   }
 }
