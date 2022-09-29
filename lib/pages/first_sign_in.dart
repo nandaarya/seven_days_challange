@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class FirstSignIn extends StatelessWidget {
   const FirstSignIn({Key? key}) : super(key: key);
@@ -16,7 +17,10 @@ class FirstSignIn extends StatelessWidget {
           ),
           Text(
             'Welcome back. Let’s make money.',
-
+            style: GoogleFonts.poppins(
+              fontSize: 24,
+              fontWeight: FontWeight.w600,
+            ),
           ),
         ],
       ),
