@@ -6,9 +6,8 @@ class FirstSignIn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffE5E5E5),
+      backgroundColor: Color(0xff181A20),
       body: Column(
-
       ),
     );
   }
