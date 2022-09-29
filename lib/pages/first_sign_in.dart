@@ -10,6 +10,7 @@ class FirstSignIn extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xff181A20),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Image.asset(
             'assets/images/coin_icon.png',
