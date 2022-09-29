@@ -14,6 +14,7 @@ class FirstSignIn extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            SizedBox(height: 70),
             Image.asset(
               'assets/images/coin_icon.png',
               width: 50, height: 50,
