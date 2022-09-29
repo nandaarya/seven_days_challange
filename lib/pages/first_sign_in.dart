@@ -28,6 +28,7 @@ class FirstSignIn extends StatelessWidget {
                 fontWeight: FontWeight.w600,
               ),
             ),
+            SizedBox(height: 70),
           ],
         ),
       ),
