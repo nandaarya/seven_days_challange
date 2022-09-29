@@ -19,6 +19,7 @@ class FirstSignIn extends StatelessWidget {
               'assets/images/coin_icon.png',
               width: 50, height: 50,
             ),
+            SizedBox(height: 70),
             Text(
               'Welcome back.\nLet’s make money.',
               style: GoogleFonts.poppins(
