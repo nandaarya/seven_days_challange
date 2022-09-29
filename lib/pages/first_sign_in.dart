@@ -19,7 +19,7 @@ class FirstSignIn extends StatelessWidget {
               width: 50, height: 50,
             ),
             Text(
-              'Welcome back. Let’s make money.',
+              'Welcome back.\nLet’s make money.',
               style: GoogleFonts.poppins(
                 color: Color(0xffFFFFFF),
                 fontSize: 24,
