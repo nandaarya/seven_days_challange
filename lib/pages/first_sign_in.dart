@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class FirstSignIn extends StatelessWidget {
@@ -8,6 +9,16 @@ class FirstSignIn extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xff181A20),
       body: Column(
+        children: [
+          Image.asset(
+            'assets/images/coin_icon.png',
+            width: 50, height: 50,
+          ),
+          // Text(
+          //   'Welcome back. Let’s make money.',
+          //
+          // ),
+        ],
       ),
     );
   }
