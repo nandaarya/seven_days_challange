@@ -14,10 +14,10 @@ class FirstSignIn extends StatelessWidget {
             'assets/images/coin_icon.png',
             width: 50, height: 50,
           ),
-          // Text(
-          //   'Welcome back. Let’s make money.',
-          //
-          // ),
+          Text(
+            'Welcome back. Let’s make money.',
+
+          ),
         ],
       ),
     );
