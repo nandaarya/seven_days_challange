@@ -68,6 +68,7 @@ class FirstSignIn extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 6),
             Container(
               alignment: AlignmentDirectional.centerEnd,
               child: Text(
