@@ -36,6 +36,10 @@ class FirstSignIn extends StatelessWidget {
               decoration: InputDecoration(
                 fillColor: Color(0xff262A34),
                 filled: true,
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(17),
+                  borderSide: BorderSide.none,
+                ),
               ),
             ),
           ],
