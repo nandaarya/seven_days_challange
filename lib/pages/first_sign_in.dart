@@ -68,6 +68,12 @@ class FirstSignIn extends StatelessWidget {
                 ),
               ),
             ),
+            Text(
+              'Forgot My Password',
+              style: GoogleFonts.poppins(
+                color: Color(0xff6A6B70),
+              ),
+            ),
           ],
         ),
       ),
