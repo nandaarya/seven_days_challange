@@ -40,6 +40,10 @@ class FirstSignIn extends StatelessWidget {
                   borderRadius: BorderRadius.circular(17),
                   borderSide: BorderSide.none,
                 ),
+                hintText: 'Email',
+                hintStyle: GoogleFonts.openSans(
+                  color: Color(0xff6F7075),
+                ),
               ),
             ),
           ],
