@@ -46,6 +46,23 @@ class FirstSignIn extends StatelessWidget {
                 ),
               ),
             ),
+            TextFormField(
+              style: GoogleFonts.openSans(
+                color: Color(0xffFFFFFF),
+              ),
+              decoration: InputDecoration(
+                fillColor: Color(0xff262A34),
+                filled: true,
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(17),
+                  borderSide: BorderSide.none,
+                ),
+                hintText: 'Email',
+                hintStyle: GoogleFonts.openSans(
+                  color: Color(0xff6F7075),
+                ),
+              ),
+            ),
           ],
         ),
       ),
