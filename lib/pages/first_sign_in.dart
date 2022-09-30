@@ -46,6 +46,7 @@ class FirstSignIn extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 20),
             TextFormField(
               style: GoogleFonts.openSans(
                 color: Color(0xffFFFFFF),
