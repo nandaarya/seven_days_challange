@@ -62,6 +62,10 @@ class FirstSignIn extends StatelessWidget {
                 hintStyle: GoogleFonts.openSans(
                   color: Color(0xff6F7075),
                 ),
+                suffixIcon: Icon(
+                  Icons.visibility,
+                  color: Color(0xff6F7075),
+                ),
               ),
             ),
           ],
