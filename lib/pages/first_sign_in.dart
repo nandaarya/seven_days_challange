@@ -33,6 +33,10 @@ class FirstSignIn extends StatelessWidget {
               style: GoogleFonts.openSans(
                 color: Color(0xffFFFFFF),
               ),
+              decoration: InputDecoration(
+                fillColor: Color(0xff262A34),
+                filled: true,
+              ),
             ),
           ],
         ),
