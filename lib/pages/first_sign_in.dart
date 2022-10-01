@@ -86,6 +86,9 @@ class FirstSignIn extends StatelessWidget {
                 onPressed: () {},
                 style: TextButton.styleFrom(
                   backgroundColor: Color(0xffFCAC15),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(17),
+                  ),
                 ),
                 child: Text('Sign In',style: GoogleFonts.openSans(
                   color: Color(0xff6B4909),
