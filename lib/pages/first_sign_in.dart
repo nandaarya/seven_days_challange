@@ -79,7 +79,9 @@ class FirstSignIn extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 117,),
+            SizedBox(
+              height: 117,
+            ),
             Container(
               height: 55,
               width: double.infinity,
@@ -91,13 +93,22 @@ class FirstSignIn extends StatelessWidget {
                     borderRadius: BorderRadius.circular(17),
                   ),
                 ),
-                child: Text('Sign In',style: GoogleFonts.openSans(
-                  color: Color(0xff6B4909),
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
-                ),),
+                child: Text(
+                  'Sign In',
+                  style: GoogleFonts.openSans(
+                    color: Color(0xff6B4909),
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
               ),
             ),
+            Row(
+              children: [
+                Text("Don't have account?"),
+                Text('Sign Up'),
+              ],
+            )
           ],
         ),
       ),
