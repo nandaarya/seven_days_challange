@@ -87,7 +87,9 @@ class FirstSignIn extends StatelessWidget {
                 style: TextButton.styleFrom(
                   backgroundColor: Color(0xffFCAC15),
                 ),
-                child: Text('Sign In'),
+                child: Text('Sign In',style: GoogleFonts.openSans(
+                  color: Color(0xff6B4909),
+                ),),
               ),
             ),
           ],
