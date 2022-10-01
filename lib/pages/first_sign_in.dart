@@ -103,20 +103,26 @@ class FirstSignIn extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 30,),
+            SizedBox(
+              height: 30,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Don't have account? ",
-                style: GoogleFonts.poppins(
-                  color: Colors.white,
-                ),),
-                Text('Sign Up',
-                style: GoogleFonts.poppins(
-                  color: Colors.white,
-                  fontWeight: FontWeight.w600,
-                  decoration: TextDecoration.underline,
-                ),),
+                Text(
+                  "Don't have account? ",
+                  style: GoogleFonts.poppins(
+                    color: Colors.white,
+                  ),
+                ),
+                Text(
+                  'Sign Up',
+                  style: GoogleFonts.poppins(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w600,
+                    decoration: TextDecoration.underline,
+                  ),
+                ),
               ],
             )
           ],
