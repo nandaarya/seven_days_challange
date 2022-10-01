@@ -81,6 +81,7 @@ class FirstSignIn extends StatelessWidget {
             ),
             Container(
               height: 55,
+              width: double.infinity,
               child: TextButton(
                 onPressed: () {},
                 style: TextButton.styleFrom(
