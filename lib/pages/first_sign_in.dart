@@ -89,6 +89,8 @@ class FirstSignIn extends StatelessWidget {
                 ),
                 child: Text('Sign In',style: GoogleFonts.openSans(
                   color: Color(0xff6B4909),
+                  fontSize: 18,
+                  fontWeight: FontWeight.w600,
                 ),),
               ),
             ),
