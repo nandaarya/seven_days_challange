@@ -17,7 +17,8 @@ class FirstSignIn extends StatelessWidget {
             SizedBox(height: 70),
             Image.asset(
               'assets/images/coin_icon.png',
-              width: 50, height: 50,
+              width: 50,
+              height: 50,
             ),
             SizedBox(height: 70),
             Text(
@@ -76,6 +77,16 @@ class FirstSignIn extends StatelessWidget {
                 style: GoogleFonts.poppins(
                   color: Color(0xff6A6B70),
                 ),
+              ),
+            ),
+            Container(
+              height: 55,
+              child: TextButton(
+                onPressed: () {},
+                style: TextButton.styleFrom(
+                  backgroundColor: Color(0xffFCAC15),
+                ),
+                child: Text('Sign In'),
               ),
             ),
           ],
