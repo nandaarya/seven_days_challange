@@ -79,6 +79,7 @@ class FirstSignIn extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 117,),
             Container(
               height: 55,
               width: double.infinity,
