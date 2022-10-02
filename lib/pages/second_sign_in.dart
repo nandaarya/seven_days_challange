@@ -27,6 +27,7 @@ class SecondSignIn extends StatelessWidget {
                 color: Color(0xff17171A),
               ),
             ),
+            SizedBox(height: 6,),
             TextFormField(
               style: GoogleFonts.openSans(
                 color: Color(0xff17171A),
