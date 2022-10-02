@@ -20,6 +20,7 @@ class SecondSignIn extends StatelessWidget {
                 height: 279,
               ),
             ),
+            SizedBox(height: 53,),
             Text(
               'Email Address',
               style: GoogleFonts.openSans(
