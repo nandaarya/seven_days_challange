@@ -5,6 +5,13 @@ class SecondSignIn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Column(
+        children: [
+          Image.asset('assets/images/signin_2.png'),
+
+        ],
+      ),
+    );
   }
 }
