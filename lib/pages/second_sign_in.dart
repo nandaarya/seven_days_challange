@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SecondSignIn extends StatelessWidget {
@@ -10,13 +11,18 @@ class SecondSignIn extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.only(left: 28, right: 28),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.asset(
-              'assets/images/signin_2.png',
-              width: 245,
-              height: 279,
+            Center(
+              child: Image.asset(
+                'assets/images/signin_2.png',
+                width: 245,
+                height: 279,
+              ),
             ),
-            Text('Email Address'),
+            Text(
+              'Email Address',
+            ),
             TextFormField(
               style: GoogleFonts.openSans(
                 color: Color(0xff17171A),
