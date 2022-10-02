@@ -9,7 +9,11 @@ class SecondSignIn extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Image.asset('assets/images/signin_2.png'),
+          Image.asset(
+            'assets/images/signin_2.png',
+            width: 245,
+            height: 279,
+          ),
           Text('Email Address'),
           TextFormField(
             style: GoogleFonts.openSans(
