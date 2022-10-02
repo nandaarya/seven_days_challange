@@ -17,6 +17,14 @@ class SecondSignIn extends StatelessWidget {
               fontSize: 16,
               fontWeight: FontWeight.w600,
             ),
+            decoration: InputDecoration(
+              fillColor: Color(0xffF3F3F3),
+              filled: true,
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(71),
+                borderSide: BorderSide.none,
+              ),
+            ),
           ),
         ],
       ),
