@@ -43,6 +43,7 @@ class SecondSignIn extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 20,),
             Text(
               'Password',
               style: GoogleFonts.openSans(
