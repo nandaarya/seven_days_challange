@@ -44,7 +44,7 @@ class SecondSignIn extends StatelessWidget {
               ),
             ),
             Text(
-              'Email Address',
+              'Password',
               style: GoogleFonts.openSans(
                 color: Color(0xff17171A),
               ),
