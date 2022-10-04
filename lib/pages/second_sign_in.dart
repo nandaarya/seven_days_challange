@@ -43,11 +43,26 @@ class SecondSignIn extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 20,),
+            SizedBox(height: 20),
             Text(
               'Password',
               style: GoogleFonts.openSans(
                 color: Color(0xff17171A),
+              ),
+            ),
+            TextFormField(
+              style: GoogleFonts.openSans(
+                color: Color(0xff17171A),
+                fontSize: 16,
+                fontWeight: FontWeight.w600,
+              ),
+              decoration: InputDecoration(
+                fillColor: Color(0xffF3F3F3),
+                filled: true,
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(71),
+                  borderSide: BorderSide.none,
+                ),
               ),
             ),
           ],
