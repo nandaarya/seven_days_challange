@@ -71,12 +71,21 @@ class SecondSignIn extends StatelessWidget {
               Container(
                 height: 55,
                 width: double.infinity,
-                child: Text(
-                  'Log In',
-                  style: GoogleFonts.openSans(
-                    color: Color(0xffF8F8F8),
-                    fontSize: 18,
-                    fontWeight: FontWeight.w600,
+                child: TextButton(
+                  onPressed: () {},
+                  style: TextButton.styleFrom(
+                    backgroundColor: Color(0xff5468FF),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(60),
+                    ),
+                  ),
+                  child: Text(
+                    'Log In',
+                    style: GoogleFonts.openSans(
+                      color: Color(0xffF8F8F8),
+                      fontSize: 18,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
               ),
