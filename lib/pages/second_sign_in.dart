@@ -71,7 +71,6 @@ class SecondSignIn extends StatelessWidget {
               Container(
                 height: 55,
                 width: double.infinity,
-                ),
                 child: Text(
                   'Log In',
                   style: GoogleFonts.openSans(
