@@ -102,7 +102,7 @@ class SecondSignIn extends StatelessWidget {
                     ),
                   ),
                   child: Text(
-                    'Log In',
+                    'Create New Account',
                     style: GoogleFonts.openSans(
                       color: Color(0xffF8F8F8),
                       fontSize: 18,
