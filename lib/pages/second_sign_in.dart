@@ -96,7 +96,7 @@ class SecondSignIn extends StatelessWidget {
                 child: TextButton(
                   onPressed: () {},
                   style: TextButton.styleFrom(
-                    backgroundColor: Color(0xff5468FF),
+                    backgroundColor: Color(0xffE5E5E5),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(60),
                     ),
