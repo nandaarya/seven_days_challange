@@ -68,7 +68,14 @@ class SecondSignIn extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 50,),
-              Text('Log In'),
+              Text(
+                'Log In',
+                style: GoogleFonts.openSans(
+                  color: Color(0xffF8F8F8),
+                  fontSize: 18,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
             ],
           ),
         ),
