@@ -89,6 +89,7 @@ class SecondSignIn extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(height: 10),
               Container(
                 height: 55,
                 width: double.infinity,
