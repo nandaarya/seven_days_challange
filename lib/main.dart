@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:seven_days_challange/pages/first_empty_state.dart';
 import 'package:seven_days_challange/pages/first_sign_in.dart';
 import 'package:seven_days_challange/pages/first_splash.dart';
 import 'package:seven_days_challange/pages/first_started.dart';
@@ -15,7 +16,7 @@ class SevenDays extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SecondSignIn(),
+      home: FirstEmptyState(),
     );
   }
 }
