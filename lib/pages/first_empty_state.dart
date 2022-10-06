@@ -28,6 +28,7 @@ class FirstEmptyState extends StatelessWidget {
               SizedBox(height: 16),
               Text(
                 'We will delivery your package \nas soon as possible',
+                textAlign: TextAlign.center,
                 style: GoogleFonts.poppins(
                   fontSize: 16,
                 ),
