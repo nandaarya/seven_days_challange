@@ -5,14 +5,16 @@ class FirstEmptyState extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Image.asset(
-          'assets/images/bag.png',
-          width: 239,
-          height: 210,
-        ),
-      ],
+    return Scaffold(
+      body: Column(
+        children: [
+          Image.asset(
+            'assets/images/bag.png',
+            width: 239,
+            height: 210,
+          ),
+        ],
+      ),
     );
   }
 }
