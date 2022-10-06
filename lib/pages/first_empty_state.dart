@@ -42,7 +42,12 @@ class FirstEmptyState extends StatelessWidget {
                     style: TextButton.styleFrom(
                       backgroundColor: Color(0xffF94593),
                     ),
-                    child: Text('Done')),
+                    child: Text('Done',
+                      style: GoogleFonts.openSans(
+                        color: Color(0xffF8F8F8),
+                      ),
+                    ),
+                ),
               ),
             ],
           ),
