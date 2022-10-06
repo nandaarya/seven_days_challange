@@ -15,6 +15,8 @@ class FirstEmptyState extends StatelessWidget {
               width: 239,
               height: 210,
             ),
+            Text('Success Order'),
+            Text('We will delivery your package \nas soon as possible'),
           ],
         ),
       ),
