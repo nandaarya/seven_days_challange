@@ -39,6 +39,9 @@ class FirstEmptyState extends StatelessWidget {
                 width: 200,
                 child: TextButton(
                   onPressed: () {},
+                    style: TextButton.styleFrom(
+                      backgroundColor: Color(0xffF94593),
+                    ),
                     child: Text('Done')),
               ),
             ],
