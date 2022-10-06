@@ -6,14 +6,17 @@ class FirstEmptyState extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Image.asset(
-            'assets/images/bag.png',
-            width: 239,
-            height: 210,
-          ),
-        ],
+      body: Padding(
+        padding: const EdgeInsets.only(top: 148, left: 66, right: 66),
+        child: Column(
+          children: [
+            Image.asset(
+              'assets/images/bag.png',
+              width: 239,
+              height: 210,
+            ),
+          ],
+        ),
       ),
     );
   }
