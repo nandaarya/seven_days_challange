@@ -34,7 +34,9 @@ class FirstEmptyState extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 50),
-              Text('Done'),
+              TextButton(
+                onPressed: () {},
+                  child: Text('Done')),
             ],
           ),
         ),
