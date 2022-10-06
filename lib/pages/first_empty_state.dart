@@ -17,14 +17,16 @@ class FirstEmptyState extends StatelessWidget {
               height: 210,
             ),
             SizedBox(height: 100),
-            Text('Success Order',
-            style: GoogleFonts.poppins(
-              fontSize: 24,
-              fontWeight: FontWeight.w600,
-            ),
+            Text(
+              'Success Order',
+              style: GoogleFonts.poppins(
+                fontSize: 24,
+                fontWeight: FontWeight.w600,
+              ),
             ),
             SizedBox(height: 16),
-            Text('We will delivery your package \nas soon as possible',
+            Text(
+              'We will delivery your package \nas soon as possible',
               style: GoogleFonts.poppins(
                 fontSize: 16,
               ),
