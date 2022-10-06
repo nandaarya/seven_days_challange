@@ -45,6 +45,8 @@ class FirstEmptyState extends StatelessWidget {
                     child: Text('Done',
                       style: GoogleFonts.openSans(
                         color: Color(0xffF8F8F8),
+                        fontSize: 18,
+                        fontWeight: FontWeight.w600,
                       ),
                     ),
                 ),
