@@ -5,6 +5,13 @@ class SecondEmptyState extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      backgroundColor: Color(0xff1B1B33),
+      body: Column(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
