@@ -10,7 +10,7 @@ class SecondEmptyState extends StatelessWidget {
       body: Column(
         children: [
           Text('Boost Profit!'),
-
+          Text('Our tools are helping business to grow much faster'),
         ],
       ),
     );
