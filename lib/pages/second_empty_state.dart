@@ -10,18 +10,22 @@ class SecondEmptyState extends StatelessWidget {
       backgroundColor: Color(0xff1B1B33),
       body: Column(
         children: [
-          Text('Boost Profit!',
-          style: GoogleFonts.poppins(
-            color: Color(0xffFFFFFF),
-            fontSize: 24,
-            fontWeight: FontWeight.w600,
-          ),),
-          Text('Our tools are helping business to grow much faster',
-          style: GoogleFonts.poppins(
-            color: Color(0xffFFFFFF),
-            fontSize: 16,
-            fontWeight: FontWeight.w300,
-          ),),
+          Text(
+            'Boost Profit!',
+            style: GoogleFonts.poppins(
+              color: Color(0xffFFFFFF),
+              fontSize: 24,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+          Text(
+            'Our tools are helping business to grow much faster',
+            style: GoogleFonts.poppins(
+              color: Color(0xffFFFFFF),
+              fontSize: 16,
+              fontWeight: FontWeight.w300,
+            ),
+          ),
         ],
       ),
     );
