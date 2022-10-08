@@ -16,7 +16,12 @@ class SecondEmptyState extends StatelessWidget {
             fontSize: 24,
             fontWeight: FontWeight.w600,
           ),),
-          Text('Our tools are helping business to grow much faster'),
+          Text('Our tools are helping business to grow much faster',
+          style: GoogleFonts.poppins(
+            color: Color(0xffFFFFFF),
+            fontSize: 16,
+            fontWeight: FontWeight.w300,
+          ),),
         ],
       ),
     );
