@@ -29,6 +29,7 @@ class SecondEmptyState extends StatelessWidget {
                 fontWeight: FontWeight.w300,
               ),
             ),
+            Image.asset('assets/images/roket.png'),
           ],
         ),
       ),
