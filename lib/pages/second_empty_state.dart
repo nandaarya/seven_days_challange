@@ -18,8 +18,10 @@ class SecondEmptyState extends StatelessWidget {
               fontWeight: FontWeight.w600,
             ),
           ),
+          SizedBox(height: 16),
           Text(
-            'Our tools are helping business to grow much faster',
+            'Our tools are helping business \nto grow much faster',
+            textAlign: TextAlign.center,
             style: GoogleFonts.poppins(
               color: Color(0xffFFFFFF),
               fontSize: 16,
