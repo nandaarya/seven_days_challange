@@ -9,7 +9,8 @@ class SecondEmptyState extends StatelessWidget {
       backgroundColor: Color(0xff1B1B33),
       body: Column(
         children: [
-          
+          Text('Boost Profit!'),
+
         ],
       ),
     );
