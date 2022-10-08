@@ -8,27 +8,29 @@ class SecondEmptyState extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xff1B1B33),
-      body: Column(
-        children: [
-          Text(
-            'Boost Profit!',
-            style: GoogleFonts.poppins(
-              color: Color(0xffFFFFFF),
-              fontSize: 24,
-              fontWeight: FontWeight.w600,
+      body: Center(
+        child: Column(
+          children: [
+            Text(
+              'Boost Profit!',
+              style: GoogleFonts.poppins(
+                color: Color(0xffFFFFFF),
+                fontSize: 24,
+                fontWeight: FontWeight.w600,
+              ),
             ),
-          ),
-          SizedBox(height: 16),
-          Text(
-            'Our tools are helping business \nto grow much faster',
-            textAlign: TextAlign.center,
-            style: GoogleFonts.poppins(
-              color: Color(0xffFFFFFF),
-              fontSize: 16,
-              fontWeight: FontWeight.w300,
+            SizedBox(height: 16),
+            Text(
+              'Our tools are helping business \nto grow much faster',
+              textAlign: TextAlign.center,
+              style: GoogleFonts.poppins(
+                color: Color(0xffFFFFFF),
+                fontSize: 16,
+                fontWeight: FontWeight.w300,
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
