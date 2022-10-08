@@ -29,6 +29,7 @@ class SecondEmptyState extends StatelessWidget {
                 fontWeight: FontWeight.w300,
               ),
             ),
+            SizedBox(height: 59),
             Image.asset(
               'assets/images/roket.png',
               height: 65,
