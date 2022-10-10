@@ -11,7 +11,7 @@ class SecondEmptyState extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Image.asset('assets/images/uang.png'),
+            Image.asset('assets/images/chart_illustration.png'),
             Text(
               'Boost Profit!',
               style: GoogleFonts.poppins(
