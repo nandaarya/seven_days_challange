@@ -11,7 +11,12 @@ class SecondEmptyState extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Image.asset('assets/images/chart_illustration.png'),
+            Image.asset(
+              'assets/images/chart_illustration.png',
+              height: 375,
+              width: 480,
+            ),
+            SizedBox(height: 68),
             Text(
               'Boost Profit!',
               style: GoogleFonts.poppins(
