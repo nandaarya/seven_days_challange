@@ -11,10 +11,12 @@ class SecondEmptyState extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Image.asset(
-              'assets/images/chart_illustration.png',
-              height: 375,
-              width: 480,
+            Center(
+              child: Image.asset(
+                'assets/images/chart_illustration.png',
+                height: 430,
+                width: double.infinity,
+              ),
             ),
             SizedBox(height: 68),
             Text(
