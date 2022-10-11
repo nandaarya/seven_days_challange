@@ -10,6 +10,7 @@ class FirstRatingRating extends StatelessWidget {
       body: Column(
         children: [
           Image.asset('assets/images/pizza.png'),
+          Text('Pizza Ballado'),
         ],
       ),
     );
