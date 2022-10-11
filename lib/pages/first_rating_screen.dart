@@ -9,7 +9,7 @@ class FirstRatingRating extends StatelessWidget {
       backgroundColor: Color(0xff181925),
       body: Column(
         children: [
-
+          Image.asset('assets/images/pizza.png'),
         ],
       ),
     );
