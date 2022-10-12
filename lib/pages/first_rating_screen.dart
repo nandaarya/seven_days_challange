@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:seven_days_challange/widgets/theme.dart';
 
 class FirstRatingRating extends StatelessWidget {
   const FirstRatingRating({Key? key}) : super(key: key);
@@ -17,11 +18,20 @@ class FirstRatingRating extends StatelessWidget {
               height: 200,
             ),
             SizedBox(height: 20),
-            Text('Pizza Ballado'),
+            Text(
+              'Pizza Ballado',
+              style: foodTextStyle,
+            ),
             SizedBox(height: 4),
-            Text('\$90,00'),
+            Text(
+              '\$90,00',
+              style: pricingTextStyle,
+            ),
             SizedBox(height: 90),
-            Text('Was it delicious?'),
+            Text(
+              'Was it delicious?',
+              style: questionTextStyle,
+            ),
             SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -55,7 +65,10 @@ class FirstRatingRating extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Color(0xff34D186),
               ),
-              child: Text('Rate Now'),
+              child: Text(
+                'Rate Now',
+                style: rateTextStyle,
+              ),
             )
           ],
         ),
