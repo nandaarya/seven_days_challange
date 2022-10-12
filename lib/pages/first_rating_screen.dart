@@ -44,11 +44,14 @@ class FirstRatingRating extends StatelessWidget {
               ),
             ],
           ),
+          SizedBox(height: 90),
           Container(
-            width: 211, height: 55,
+            width: 211,
+            height: 55,
             decoration: BoxDecoration(
               color: Color(0xff34D186),
             ),
+            child: Text('Rate Now'),
           )
         ],
       ),
