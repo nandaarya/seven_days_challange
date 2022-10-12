@@ -16,6 +16,12 @@ class FirstRatingRating extends StatelessWidget {
           Text('\$90,00'),
           SizedBox(height: 90),
           Text('Was it delicious?'),
+          SizedBox(height: 20),
+          Row(
+            children: [
+
+            ],
+          ),
         ],
       ),
     );
