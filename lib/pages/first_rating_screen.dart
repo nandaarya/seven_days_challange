@@ -20,6 +20,7 @@ class FirstRatingRating extends StatelessWidget {
           Text('Was it delicious?'),
           SizedBox(height: 20),
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Image.asset(
                 'assets/images/emoji_one.png',
