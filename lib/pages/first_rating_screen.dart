@@ -44,6 +44,12 @@ class FirstRatingRating extends StatelessWidget {
               ),
             ],
           ),
+          Container(
+            width: 211, height: 55,
+            decoration: BoxDecoration(
+              color: Color(0xff34D186),
+            ),
+          )
         ],
       ),
     );
