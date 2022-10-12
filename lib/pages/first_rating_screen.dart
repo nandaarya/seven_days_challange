@@ -14,6 +14,8 @@ class FirstRatingRating extends StatelessWidget {
           Text('Pizza Ballado'),
           SizedBox(height: 4),
           Text('\$90,00'),
+          SizedBox(height: 90),
+          Text('Was it delicious?'),
         ],
       ),
     );
