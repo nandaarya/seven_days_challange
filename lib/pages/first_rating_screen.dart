@@ -19,7 +19,10 @@ class FirstRatingRating extends StatelessWidget {
           SizedBox(height: 20),
           Row(
             children: [
-
+              Image.asset('assets/images/emoji_one.png'),
+              Image.asset('assets/images/emoji_two.png'),
+              Image.asset('assets/images/emoji_three.png'),
+              Image.asset('assets/images/emoji_four.png'),
             ],
           ),
         ],
