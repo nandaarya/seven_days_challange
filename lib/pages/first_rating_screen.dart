@@ -11,11 +11,12 @@ class FirstRatingRating extends StatelessWidget {
         padding: const EdgeInsets.only(right: 37, left: 37, top: 80),
         child: Column(
           children: [
-            Image.asset('assets/images/pizza.png',
-            width: 200, height: 200,),
-            SizedBox(
-              height: 20,
+            Image.asset(
+              'assets/images/pizza.png',
+              width: 200,
+              height: 200,
             ),
+            SizedBox(height: 20),
             Text('Pizza Ballado'),
             SizedBox(height: 4),
             Text('\$90,00'),
