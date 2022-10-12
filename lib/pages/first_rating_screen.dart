@@ -64,6 +64,7 @@ class FirstRatingRating extends StatelessWidget {
               height: 55,
               decoration: BoxDecoration(
                 color: Color(0xff34D186),
+                borderRadius: BorderRadius.circular(60),
               ),
               child: Text(
                 'Rate Now',
