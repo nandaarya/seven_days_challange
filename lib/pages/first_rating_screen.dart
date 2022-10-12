@@ -28,9 +28,12 @@ class FirstRatingRating extends StatelessWidget {
               style: pricingTextStyle,
             ),
             SizedBox(height: 90),
-            Text(
-              'Was it delicious?',
-              style: questionTextStyle,
+            Container(
+              alignment: AlignmentDirectional.bottomStart,
+              child: Text(
+                'Was it delicious?',
+                style: questionTextStyle,
+              ),
             ),
             SizedBox(height: 20),
             Row(
@@ -62,6 +65,7 @@ class FirstRatingRating extends StatelessWidget {
             Container(
               width: 211,
               height: 55,
+              alignment: AlignmentDirectional.center,
               decoration: BoxDecoration(
                 color: Color(0xff34D186),
                 borderRadius: BorderRadius.circular(60),
