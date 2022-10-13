@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:seven_days_challange/widgets/theme.dart';
 
 class SecondRatingScreen extends StatelessWidget {
   const SecondRatingScreen({Key? key}) : super(key: key);
@@ -16,9 +17,15 @@ class SecondRatingScreen extends StatelessWidget {
               height: 210,
             ),
             SizedBox(height: 50),
-            Text('Enjoy Your Meal'),
+            Text(
+              'Enjoy Your Meal',
+              style: headTextStyle,
+            ),
             SizedBox(height: 6),
-            Text('Please rate our experience'),
+            Text(
+              'Please rate our experience',
+              style: subTextStyle,
+            ),
           ],
         ),
       ),
