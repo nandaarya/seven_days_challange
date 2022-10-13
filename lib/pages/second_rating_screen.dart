@@ -8,7 +8,11 @@ class SecondRatingScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Image.asset('assets/images/duduk.png'),
+          Image.asset(
+            'assets/images/duduk.png',
+            width: 295,
+            height: 210,
+          ),
           Text('Enjoy Your Meal'),
           Text('Please rate our experience'),
         ],
