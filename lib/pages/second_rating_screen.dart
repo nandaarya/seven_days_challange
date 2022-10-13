@@ -6,16 +6,19 @@ class SecondRatingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Image.asset(
-            'assets/images/duduk.png',
-            width: 295,
-            height: 210,
-          ),
-          Text('Enjoy Your Meal'),
-          Text('Please rate our experience'),
-        ],
+      body: Padding(
+        padding: const EdgeInsets.only(left: 28, right: 28, top: 80),
+        child: Column(
+          children: [
+            Image.asset(
+              'assets/images/duduk.png',
+              width: 295,
+              height: 210,
+            ),
+            Text('Enjoy Your Meal'),
+            Text('Please rate our experience'),
+          ],
+        ),
       ),
     );
   }
