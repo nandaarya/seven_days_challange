@@ -9,6 +9,8 @@ class SecondRatingScreen extends StatelessWidget {
       body: Column(
         children: [
           Image.asset('assets/images/duduk.png'),
+          Text('Enjoy Your Meal'),
+          Text('Please rate our experience'),
         ],
       ),
     );
