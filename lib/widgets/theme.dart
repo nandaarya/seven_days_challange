@@ -26,3 +26,27 @@ TextStyle rateTextStyle = GoogleFonts.poppins(
   fontSize: 16,
   fontWeight: FontWeight.w600,
 );
+
+// Second Rating Screen
+
+TextStyle headTextStyle = GoogleFonts.poppins(
+  color: Color(0xff121622),
+  fontSize: 20,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle subTextStyle = GoogleFonts.poppins(
+  color: Color(0xff808EAB),
+  fontSize: 16,
+);
+
+TextStyle messageTextStyle = GoogleFonts.poppins(
+  color: Color(0xff808EAB),
+  fontSize: 14,
+);
+
+TextStyle submitTextStyle = GoogleFonts.poppins(
+  color: Color(0xffFFFFFF),
+  fontSize: 16,
+  fontWeight: FontWeight.w600,
+);
