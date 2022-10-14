@@ -28,7 +28,9 @@ class SecondRatingScreen extends StatelessWidget {
                 'Please rate our experience',
                 style: subTextStyle,
               ),
+              SizedBox(height: 40),
               Image.asset('assets/images/stars.png'),
+              SizedBox(height: 30),
               Container(
                 width: 319,
                 height: 130,
@@ -41,6 +43,7 @@ class SecondRatingScreen extends StatelessWidget {
                   child: Text('Your message'),
                 ),
               ),
+              SizedBox(height: 30),
               Container(
                 width: 319,
                 height: 55,
