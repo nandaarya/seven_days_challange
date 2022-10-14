@@ -42,7 +42,7 @@ class SecondRatingScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(17),
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(16),
                   child: Text(
                     'Your message',
                     style: messageTextStyle,
