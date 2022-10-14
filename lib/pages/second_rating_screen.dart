@@ -49,7 +49,10 @@ class SecondRatingScreen extends StatelessWidget {
               Container(
                 width: 319,
                 height: 55,
-                color: Color(0xff4074E6),
+                decoration: BoxDecoration(
+                  color: Color(0xff4074E6),
+                  borderRadius: BorderRadius.circular(17),
+                ),
                 child: TextButton(
                   onPressed: () {},
                   child: Text(
