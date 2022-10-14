@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:seven_days_challange/widgets/theme.dart';
 
 class SecondRatingScreen extends StatelessWidget {
@@ -35,12 +34,15 @@ class SecondRatingScreen extends StatelessWidget {
                 width: 319,
                 height: 130,
                 decoration: BoxDecoration(
-                  color: Color(0XffF8F8F8),
+                  color: Color(0xffF8F8F8),
                   borderRadius: BorderRadius.circular(17),
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Text('Your message'),
+                  child: Text(
+                    'Your message',
+                    style: messageTextStyle,
+                  ),
                 ),
               ),
               SizedBox(height: 30),
@@ -50,7 +52,10 @@ class SecondRatingScreen extends StatelessWidget {
                 color: Color(0xff4074E6),
                 child: TextButton(
                   onPressed: () {},
-                  child: Text('Submit Review'),
+                  child: Text(
+                    'Submit Review',
+                    style: submitTextStyle,
+                  ),
                 ),
               ),
             ],
