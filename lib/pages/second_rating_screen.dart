@@ -28,6 +28,19 @@ class SecondRatingScreen extends StatelessWidget {
                 'Please rate our experience',
                 style: subTextStyle,
               ),
+              Image.asset('assets/images/stars.png'),
+              Container(
+                width: 319,
+                height: 130,
+                decoration: BoxDecoration(
+                  color: Color(0XffF8F8F8),
+                  borderRadius: BorderRadius.circular(17),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text('Your message'),
+                ),
+              ),
             ],
           ),
         ),
