@@ -41,6 +41,15 @@ class SecondRatingScreen extends StatelessWidget {
                   child: Text('Your message'),
                 ),
               ),
+              Container(
+                width: 319,
+                height: 55,
+                color: Color(0xff4074E6),
+                child: TextButton(
+                  onPressed: () {},
+                  child: Text('Submit Review'),
+                ),
+              ),
             ],
           ),
         ),
