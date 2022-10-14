@@ -28,7 +28,11 @@ class SecondRatingScreen extends StatelessWidget {
                 style: subTextStyle,
               ),
               SizedBox(height: 40),
-              Image.asset('assets/images/stars.png'),
+              Image.asset(
+                'assets/images/stars.png',
+                width: 290,
+                height: 50,
+              ),
               SizedBox(height: 30),
               Container(
                 width: 319,
