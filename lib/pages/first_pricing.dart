@@ -6,12 +6,14 @@ class FirstPricingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Image.asset('assets/images/mahkota.png', height: 100, width: 100,),
-          Text('Which one you wish to Upgrade?', ),
+      body: Center(
+        child: Column(
+          children: [
+            Image.asset('assets/images/mahkota.png', height: 100, width: 100,),
+            Text('Which one you wish to Upgrade?', ),
 
-        ],
+          ],
+        ),
       ),
     );
   }
