@@ -13,17 +13,28 @@ class FirstPricingScreen extends StatelessWidget {
             SizedBox(height: 48),
             Text('Which one you wish to Upgrade?', ),
             SizedBox(height: 50),
-            Row(
-              children: [
-                Image.asset('assets/images/celengan.png', width: 66, height: 61,),
-                Column(
-                  children: [
-                    Text('Money Security'),
-                    Text('support 24/7')
-                  ],
-                )
-              ],
-            )
+            Container(
+              width: 315,
+              height: 100,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(39),
+                border: Border.all(
+                  color: Color(0xffD9DEEA),
+                  width: 2,
+                ),
+              ),
+              child: Row(
+                children: [
+                  Image.asset('assets/images/celengan.png', width: 66, height: 61,),
+                  Column(
+                    children: [
+                      Text('Money Security'),
+                      Text('support 24/7')
+                    ],
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
