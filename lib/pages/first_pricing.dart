@@ -43,6 +43,7 @@ class FirstPricingScreen extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 24),
             Container(
               width: 315,
               height: 100,
@@ -73,6 +74,7 @@ class FirstPricingScreen extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 24),
             Container(
               width: 315,
               height: 100,
