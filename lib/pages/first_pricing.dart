@@ -43,6 +43,66 @@ class FirstPricingScreen extends StatelessWidget {
                 ),
               ),
             ),
+            Container(
+              width: 315,
+              height: 100,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(39),
+                border: Border.all(
+                  color: Color(0xffD9DEEA),
+                  width: 2,
+                ),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.only(left: 17, right: 17,),
+                child: Row(
+                  children: [
+                    Image.asset('assets/images/pricing_2list.png', width: 66, height: 61,),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 7, right: 7),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text('Automation'),
+                          Text('we provide Invoice'),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            Container(
+              width: 315,
+              height: 100,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(39),
+                border: Border.all(
+                  color: Color(0xffD9DEEA),
+                  width: 2,
+                ),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.only(left: 17, right: 17,),
+                child: Row(
+                  children: [
+                    Image.asset('assets/images/pricing_3list.png', width: 66, height: 61,),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 7, right: 7),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text('Balance Report'),
+                          Text('can up to 10k')
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
           ],
         ),
       ),
