@@ -28,12 +28,16 @@ class FirstPricingScreen extends StatelessWidget {
                 child: Row(
                   children: [
                     Image.asset('assets/images/celengan.png', width: 66, height: 61,),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text('Money Security'),
-                        Text('support 24/7')
-                      ],
+                    Padding(
+                      padding: const EdgeInsets.only(left: 7, right: 7),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text('Money Security'),
+                          Text('support 24/7')
+                        ],
+                      ),
                     ),
                   ],
                 ),
