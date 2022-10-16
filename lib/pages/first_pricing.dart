@@ -9,8 +9,10 @@ class FirstPricingScreen extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Image.asset('assets/images/mahkota.png', height: 100, width: 100,),
+            Image.asset('assets/images/mahkota.png', height: 100, width: 100),
+            SizedBox(height: 48),
             Text('Which one you wish to Upgrade?', ),
+            SizedBox(height: 50),
           ],
         ),
       ),
