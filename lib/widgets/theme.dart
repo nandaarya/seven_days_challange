@@ -52,7 +52,7 @@ TextStyle submitTextStyle = GoogleFonts.poppins(
 );
 
 // First Pricing Screen
-TextStyle tittleTextStyle = GoogleFonts.poppins(
+TextStyle titleTextStyle = GoogleFonts.poppins(
   color: Color(0xff191919),
   fontSize: 22,
   fontWeight: FontWeight.w600,
