@@ -139,9 +139,17 @@ class FirstPricingScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              Text(
-                'Upgrade Now',
-                style: upgradeTextStyle,
+              Container(
+                color: Color(0xff6050E7),
+                child: Row(
+                  children: [
+                    Text(
+                      'Upgrade Now',
+                      style: upgradeTextStyle,
+                    ),
+                    Image.asset('assets/images/arrow_circle.png', width: 24, height: 24,),
+                  ],
+                ),
               )
             ],
           ),
