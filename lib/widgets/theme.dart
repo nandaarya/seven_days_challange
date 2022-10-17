@@ -50,3 +50,10 @@ TextStyle submitTextStyle = GoogleFonts.poppins(
   fontSize: 16,
   fontWeight: FontWeight.w600,
 );
+
+// First Pricing Screen
+TextStyle tittleTextStyle = GoogleFonts.poppins(
+  color: Color(0xff191919),
+  fontSize: 22,
+  fontWeight: FontWeight.w600,
+);
