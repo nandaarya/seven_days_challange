@@ -14,7 +14,10 @@ class FirstPricingScreen extends StatelessWidget {
             children: [
               Image.asset('assets/images/mahkota.png', height: 100, width: 100),
               SizedBox(height: 48),
-              Text('Which one you wish to Upgrade?', style: titleTextStyle,),
+              Text(
+                'Which one you wish to Upgrade?',
+                style: titleTextStyle,
+              ),
               SizedBox(height: 50),
               Container(
                 width: 315,
@@ -27,18 +30,31 @@ class FirstPricingScreen extends StatelessWidget {
                   ),
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.only(left: 17, right: 17,),
+                  padding: const EdgeInsets.only(
+                    left: 17,
+                    right: 17,
+                  ),
                   child: Row(
                     children: [
-                      Image.asset('assets/images/celengan.png', width: 66, height: 61,),
+                      Image.asset(
+                        'assets/images/celengan.png',
+                        width: 66,
+                        height: 61,
+                      ),
                       Padding(
                         padding: const EdgeInsets.only(left: 7, right: 7),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Money Security', style: itemTextStyle,),
-                            Text('support 24/7', style: detailTextStyle,)
+                            Text(
+                              'Money Security',
+                              style: itemTextStyle,
+                            ),
+                            Text(
+                              'support 24/7',
+                              style: detailTextStyle,
+                            )
                           ],
                         ),
                       ),
@@ -58,10 +74,17 @@ class FirstPricingScreen extends StatelessWidget {
                   ),
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.only(left: 17, right: 17,),
+                  padding: const EdgeInsets.only(
+                    left: 17,
+                    right: 17,
+                  ),
                   child: Row(
                     children: [
-                      Image.asset('assets/images/pricing_2list.png', width: 66, height: 61,),
+                      Image.asset(
+                        'assets/images/pricing_2list.png',
+                        width: 66,
+                        height: 61,
+                      ),
                       Padding(
                         padding: const EdgeInsets.only(left: 7, right: 7),
                         child: Column(
@@ -89,10 +112,17 @@ class FirstPricingScreen extends StatelessWidget {
                   ),
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.only(left: 17, right: 17,),
+                  padding: const EdgeInsets.only(
+                    left: 17,
+                    right: 17,
+                  ),
                   child: Row(
                     children: [
-                      Image.asset('assets/images/pricing_3list.png', width: 66, height: 61,),
+                      Image.asset(
+                        'assets/images/pricing_3list.png',
+                        width: 66,
+                        height: 61,
+                      ),
                       Padding(
                         padding: const EdgeInsets.only(left: 7, right: 7),
                         child: Column(
@@ -108,7 +138,10 @@ class FirstPricingScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              Text('Upgrade Now', style: upgradeTextStyle,)
+              Text(
+                'Upgrade Now',
+                style: upgradeTextStyle,
+              )
             ],
           ),
         ),
