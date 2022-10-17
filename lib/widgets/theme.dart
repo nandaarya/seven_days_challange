@@ -57,3 +57,13 @@ TextStyle titleTextStyle = GoogleFonts.poppins(
   fontSize: 22,
   fontWeight: FontWeight.w600,
 );
+
+TextStyle itemTextStyle = GoogleFonts.poppins(
+  color: Color(0xff191919),
+  fontSize: 16,
+  fontWeight: FontWeight.w500,
+);
+
+
+
+
