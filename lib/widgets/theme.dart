@@ -70,6 +70,12 @@ TextStyle detailTextStyle = GoogleFonts.poppins(
   fontWeight: FontWeight.w200,
 );
 
+TextStyle upgradeTextStyle = GoogleFonts.poppins(
+  color: Color(0xffFFFFFF),
+  fontSize: 18,
+  fontWeight: FontWeight.w600,
+);
+
 
 
 
