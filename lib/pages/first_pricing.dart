@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:seven_days_challange/widgets/theme.dart';
 
 class FirstPricingScreen extends StatelessWidget {
   const FirstPricingScreen({Key? key}) : super(key: key);
@@ -13,7 +14,7 @@ class FirstPricingScreen extends StatelessWidget {
             children: [
               Image.asset('assets/images/mahkota.png', height: 100, width: 100),
               SizedBox(height: 48),
-              Text('Which one you wish to Upgrade?', ),
+              Text('Which one you wish to Upgrade?', style: titleTextStyle,),
               SizedBox(height: 50),
               Container(
                 width: 315,
@@ -36,8 +37,8 @@ class FirstPricingScreen extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Money Security'),
-                            Text('support 24/7')
+                            Text('Money Security', style: itemTextStyle,),
+                            Text('support 24/7', style: detailTextStyle,)
                           ],
                         ),
                       ),
@@ -67,8 +68,8 @@ class FirstPricingScreen extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Automation'),
-                            Text('we provide Invoice'),
+                            Text('Automation', style: itemTextStyle),
+                            Text('we provide Invoice', style: detailTextStyle),
                           ],
                         ),
                       ),
@@ -98,8 +99,8 @@ class FirstPricingScreen extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Balance Report'),
-                            Text('can up to 10k')
+                            Text('Balance Report', style: itemTextStyle),
+                            Text('can up to 10k', style: detailTextStyle)
                           ],
                         ),
                       ),
@@ -107,6 +108,7 @@ class FirstPricingScreen extends StatelessWidget {
                   ),
                 ),
               ),
+              Text('Upgrade Now', style: upgradeTextStyle,)
             ],
           ),
         ),

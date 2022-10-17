@@ -67,7 +67,7 @@ TextStyle itemTextStyle = GoogleFonts.poppins(
 TextStyle detailTextStyle = GoogleFonts.poppins(
   color: Color(0xffA3A8B8),
   fontSize: 14,
-  fontWeight: FontWeight.w200,
+  fontWeight: FontWeight.w300,
 );
 
 TextStyle upgradeTextStyle = GoogleFonts.poppins(
