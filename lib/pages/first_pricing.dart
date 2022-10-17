@@ -15,7 +15,8 @@ class FirstPricingScreen extends StatelessWidget {
               Image.asset('assets/images/mahkota.png', height: 100, width: 100),
               SizedBox(height: 48),
               Text(
-                'Which one you wish to Upgrade?',
+                'Which one you wish\nto Upgrade?',
+                textAlign: TextAlign.center,
                 style: titleTextStyle,
               ),
               SizedBox(height: 50),
