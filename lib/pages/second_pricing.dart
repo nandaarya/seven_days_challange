@@ -6,22 +6,25 @@ class SecondPricingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Image.asset('assets/images/pricing2.png'),
-          Text('Pro Features'),
-          Text('Unlock the winner modules \nand get more insights'),
-          Column(
-            children: [
-              Row(
-                children: [
-                  Image.asset('assets/images/ic_check_pricing2.png'),
-                  Text('Unlock Our Top Charts'),
-                ],
-              ),
-            ],
-          ),
-        ],
+      body: Padding(
+        padding: const EdgeInsets.only(left: 28, right: 28, top: 80),
+        child: Column(
+          children: [
+            Image.asset('assets/images/pricing2.png', width: 164, height: 164),
+            Text('Pro Features'),
+            Text('Unlock the winner modules \nand get more insights'),
+            Column(
+              children: [
+                Row(
+                  children: [
+                    Image.asset('assets/images/ic_check_pricing2.png'),
+                    Text('Unlock Our Top Charts'),
+                  ],
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
