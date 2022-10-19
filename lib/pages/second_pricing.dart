@@ -17,7 +17,25 @@ class SecondPricingScreen extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    Image.asset('assets/images/ic_check_pricing2.png'),
+                    Image.asset('assets/images/ic_check_pricing2.png', width: 24, height: 24,),
+                    Text('Unlock Our Top Charts'),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Image.asset('assets/images/ic_check_pricing2.png', width: 24, height: 24,),
+                    Text('Unlock Our Top Charts'),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Image.asset('assets/images/ic_check_pricing2.png', width: 24, height: 24,),
+                    Text('Unlock Our Top Charts'),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Image.asset('assets/images/ic_check_pricing2.png', width: 24, height: 24,),
                     Text('Unlock Our Top Charts'),
                   ],
                 ),
