@@ -21,22 +21,25 @@ class SecondPricingScreen extends StatelessWidget {
                     Text('Unlock Our Top Charts'),
                   ],
                 ),
+                SizedBox(height: 26),
                 Row(
                   children: [
                     Image.asset('assets/images/ic_check_pricing2.png', width: 24, height: 24,),
-                    Text('Unlock Our Top Charts'),
+                    Text('Save More than 1,000 Docs'),
                   ],
                 ),
+                SizedBox(height: 26),
                 Row(
                   children: [
                     Image.asset('assets/images/ic_check_pricing2.png', width: 24, height: 24,),
-                    Text('Unlock Our Top Charts'),
+                    Text('24/7 Customer Support'),
                   ],
                 ),
+                SizedBox(height: 26),
                 Row(
                   children: [
                     Image.asset('assets/images/ic_check_pricing2.png', width: 24, height: 24,),
-                    Text('Unlock Our Top Charts'),
+                    Text('Track Company’s Spending'),
                   ],
                 ),
               ],
