@@ -76,6 +76,34 @@ TextStyle upgradeTextStyle = GoogleFonts.poppins(
   fontWeight: FontWeight.w600,
 );
 
+// Second Pricing Screen
+TextStyle title2TextStyle = GoogleFonts.poppins(
+  color: Color(0xffFFFFFF),
+  fontSize: 22,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle detail2TextStyle = GoogleFonts.poppins(
+  color: Color(0xff7F7FAD),
+  fontSize: 16,
+);
+
+TextStyle item2TextStyle = GoogleFonts.poppins(
+  color: Color(0xffFFFFFF),
+  fontSize: 16,
+);
+
+TextStyle subscribeTextStyle = GoogleFonts.poppins(
+  color: Color(0xffFFFFFF),
+  fontSize: 16,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle contactTextStyle = GoogleFonts.poppins(
+  color: Color(0xffFFFFFF),
+  fontSize: 16,
+);
+
 
 
 
