@@ -9,7 +9,7 @@ class SecondPricingScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xff602880),
       body: Padding(
-        padding: const EdgeInsets.only(left: 28, right: 28, top: 80),
+        padding: const EdgeInsets.only(left: 28, right: 28, top: 50),
         child: Column(
           children: [
             Image.asset('assets/images/pricing2.png', width: 164, height: 164),
@@ -120,6 +120,7 @@ class SecondPricingScreen extends StatelessWidget {
               'Contact Support',
               style: contactTextStyle,
             ),
+            SizedBox(height: 30),
           ],
         ),
       ),
