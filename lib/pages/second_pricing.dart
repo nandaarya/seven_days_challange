@@ -97,15 +97,15 @@ class SecondPricingScreen extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(left: 7, right: 7),
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
+                    SizedBox(width: 41, height: 41),
                     TextButton(
                         onPressed: () {},
                         child: Text(
                           'Subscribe Now',
                           style: subscribeTextStyle,
                         )),
-                    SizedBox(width: 40),
                     Image.asset(
                       'assets/images/btn_arrow_pricing2.png',
                       width: 41,
