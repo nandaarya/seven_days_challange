@@ -16,27 +16,38 @@ class FirstRandomScreen extends StatelessWidget {
         child: Column(
           children: [
             Text('My Shopping Cart'),
+            SizedBox(height: 30),
             Column(
               children: [
-                Row(
-                  children: [
-                    Image.asset('assets/images/burger.png', width: 80, height: 80,),
-                    Column(children: [
-                      Text('Burger Malleta'),
-                      Text('McTheone'),
-                    ],)
-                  ],
+                Padding(
+                  padding: const EdgeInsets.only(left: 10, right: 10),
+                  child: Row(
+                    children: [
+                      Image.asset('assets/images/burger.png', width: 80, height: 80),
+                      SizedBox(width: 16),
+                      Column(children: [
+                        Text('Burger Malleta'),
+                        Text('McTheone'),
+                      ],)
+                    ],
+                  ),
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Row(children: [
-                      Image.asset('assets/images/icon_random1.png', width: 22, height: 22,),
-                      Text('2'),
-                      Image.asset('assets/images/icon_random2.png', width: 22, height: 22,),
-                    ],),
-                    Text('\$90.00'),
-                  ],
+                SizedBox(height: 13),
+                Padding(
+                  padding: const EdgeInsets.only(left: 16, right: 16),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Row(children: [
+                        Image.asset('assets/images/icon_random1.png', width: 22, height: 22,),
+                        SizedBox(width: 8),
+                        Text('2'),
+                        SizedBox(width: 8),
+                        Image.asset('assets/images/icon_random2.png', width: 22, height: 22,),
+                      ],),
+                      Text('\$90.00'),
+                    ],
+                  ),
                 ),
               ],
             ),
