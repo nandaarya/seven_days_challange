@@ -104,6 +104,31 @@ TextStyle contactTextStyle = GoogleFonts.poppins(
   fontSize: 16,
 );
 
+// First Random Screen
+TextStyle title3TextStyle = GoogleFonts.poppins(
+  color: Color(0xff191919),
+  fontSize: 22,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle itemTitleTextStyle = GoogleFonts.poppins(
+  color: Color(0xff191919),
+  fontSize: 18,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle detailItemTextStyle = GoogleFonts.poppins(
+  color: Color(0xffA3A8B8),
+  fontSize: 14,
+  fontWeight: FontWeight.w300,
+);
+
+TextStyle priceTextStyle = GoogleFonts.poppins(
+  color: Color(0xff191919),
+  fontSize: 16,
+  fontWeight: FontWeight.w600,
+);
+
 
 
 

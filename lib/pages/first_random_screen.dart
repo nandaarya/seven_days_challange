@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:seven_days_challange/widgets/theme.dart';
 
 class FirstRandomScreen extends StatelessWidget {
   const FirstRandomScreen({Key? key}) : super(key: key);
@@ -15,7 +16,7 @@ class FirstRandomScreen extends StatelessWidget {
         ),
         child: Column(
           children: [
-            Text('My Shopping Cart'),
+            Text('My Shopping Cart', style: title3TextStyle,),
             SizedBox(height: 30),
             Column(
               children: [
@@ -25,9 +26,11 @@ class FirstRandomScreen extends StatelessWidget {
                     children: [
                       Image.asset('assets/images/burger.png', width: 80, height: 80),
                       SizedBox(width: 16),
-                      Column(children: [
-                        Text('Burger Malleta'),
-                        Text('McTheone'),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                        Text('Burger Malleta', style: itemTitleTextStyle,),
+                        Text('McTheone', style: detailItemTextStyle,),
                       ],)
                     ],
                   ),
@@ -41,11 +44,11 @@ class FirstRandomScreen extends StatelessWidget {
                       Row(children: [
                         Image.asset('assets/images/icon_random1.png', width: 22, height: 22,),
                         SizedBox(width: 8),
-                        Text('2'),
+                        Text('2', style: priceTextStyle,),
                         SizedBox(width: 8),
                         Image.asset('assets/images/icon_random2.png', width: 22, height: 22,),
                       ],),
-                      Text('\$90.00'),
+                      Text('\$90.00', style: priceTextStyle,),
                     ],
                   ),
                 ),
