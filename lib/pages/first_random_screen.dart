@@ -11,7 +11,8 @@ class FirstRandomScreen extends StatelessWidget {
         child: Column(
           children: [
             Text('My Shopping Cart'),
-            Text('Burger Malleta')
+            Text('Burger Malleta'),
+            Text('\$90.00')
           ],
         ),
       ),
