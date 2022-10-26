@@ -57,6 +57,7 @@ class FirstRandomScreen extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 26),
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
@@ -68,13 +69,13 @@ class FirstRandomScreen extends StatelessWidget {
                   children: [
                     Row(
                       children: [
-                        Image.asset('assets/images/burger.png', width: 80, height: 80),
+                        Image.asset('assets/images/mojito.png', width: 80, height: 80),
                         SizedBox(width: 16),
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Burger Malleta', style: itemTitleTextStyle,),
-                            Text('McTheone', style: detailItemTextStyle,),
+                            Text('Mojito Orange', style: itemTitleTextStyle,),
+                            Text('The Bar', style: detailItemTextStyle,),
                           ],)
                       ],
                     ),
@@ -85,11 +86,11 @@ class FirstRandomScreen extends StatelessWidget {
                         Row(children: [
                           Image.asset('assets/images/icon_random1.png', width: 22, height: 22,),
                           SizedBox(width: 8),
-                          Text('2', style: priceTextStyle,),
+                          Text('5', style: priceTextStyle,),
                           SizedBox(width: 8),
                           Image.asset('assets/images/icon_random2.png', width: 22, height: 22,),
                         ],),
-                        Text('\$90.00', style: priceTextStyle,),
+                        Text('\$510.00', style: priceTextStyle,),
                       ],
                     ),
                   ],
