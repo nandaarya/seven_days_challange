@@ -157,18 +157,22 @@ class FirstRandomScreen extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.all(10),
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text('Informations'),
                     SizedBox(height: 10),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [Text('Sub total'), Text('\$600.00')],
                     ),
                     SizedBox(height: 10),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [Text('Delivery'), Text('\$80.00')],
                     ),
                     SizedBox(height: 10),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [Text('Total'), Text('\$680.00')],
                     ),
                   ],
