@@ -159,12 +159,15 @@ class FirstRandomScreen extends StatelessWidget {
                 child: Column(
                   children: [
                     Text('Informations'),
+                    SizedBox(height: 10),
                     Row(
                       children: [Text('Sub total'), Text('\$600.00')],
                     ),
+                    SizedBox(height: 10),
                     Row(
                       children: [Text('Delivery'), Text('\$80.00')],
                     ),
+                    SizedBox(height: 10),
                     Row(
                       children: [Text('Total'), Text('\$680.00')],
                     ),
