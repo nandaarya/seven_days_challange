@@ -129,6 +129,10 @@ TextStyle priceTextStyle = GoogleFonts.poppins(
   fontWeight: FontWeight.w600,
 );
 
+TextStyle infoTextStyle = GoogleFonts.poppins(
+  color: Color(0xff191919),
+  fontSize: 16,
+);
 
 
 
