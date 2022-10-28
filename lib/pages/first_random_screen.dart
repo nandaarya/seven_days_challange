@@ -159,21 +159,21 @@ class FirstRandomScreen extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Informations'),
+                    Text('Informations', style: itemTitleTextStyle,),
                     SizedBox(height: 10),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [Text('Sub total'), Text('\$600.00')],
+                      children: [Text('Sub total', style: infoTextStyle,), Text('\$600.00', style: priceTextStyle,)],
                     ),
                     SizedBox(height: 10),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [Text('Delivery'), Text('\$80.00')],
+                      children: [Text('Delivery', style: infoTextStyle), Text('\$80.00', style: priceTextStyle,)],
                     ),
                     SizedBox(height: 10),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [Text('Total'), Text('\$680.00')],
+                      children: [Text('Total', style: infoTextStyle), Text('\$680.00', style: priceTextStyle,)],
                     ),
                   ],
                 ),
