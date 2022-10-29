@@ -13,6 +13,7 @@ class FirstRandomScreen extends StatelessWidget {
           left: 30,
           right: 30,
           top: 36,
+          bottom: 24,
         ),
         child: Column(
           children: [
@@ -84,7 +85,7 @@ class FirstRandomScreen extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 26),
+            SizedBox(height: 20),
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
@@ -148,7 +149,7 @@ class FirstRandomScreen extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 26),
+            SizedBox(height: 20),
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
@@ -179,7 +180,7 @@ class FirstRandomScreen extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 52),
+            SizedBox(height: 35),
             Container(
               width: double.infinity,
               height: 60,
@@ -190,6 +191,18 @@ class FirstRandomScreen extends StatelessWidget {
               child: TextButton(
                 onPressed: (){},
                   child: Text('Checkout Now')),
+            ),
+            SizedBox(height: 17),
+            Container(
+              width: double.infinity,
+              height: 60,
+              decoration: BoxDecoration(
+                color: Color(0xffD9D9D9),
+                borderRadius: BorderRadius.circular(53),
+              ),
+              child: TextButton(
+                  onPressed: (){},
+                  child: Text('Save to Wishlist')),
             ),
           ],
         ),

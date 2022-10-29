@@ -134,5 +134,17 @@ TextStyle infoTextStyle = GoogleFonts.poppins(
   fontSize: 16,
 );
 
+TextStyle checkoutTitleTextStyle = GoogleFonts.poppins(
+  color: Color(0xff2E221B),
+  fontSize: 18,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle wishlistTitleTextStyle = GoogleFonts.poppins(
+  color: Color(0xffFFFFFF),
+  fontSize: 18,
+  fontWeight: FontWeight.w600,
+);
+
 
 
