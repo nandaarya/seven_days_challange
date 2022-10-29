@@ -178,7 +178,19 @@ class FirstRandomScreen extends StatelessWidget {
                   ],
                 ),
               ),
-            )
+            ),
+            SizedBox(height: 52),
+            Container(
+              width: double.infinity,
+              height: 60,
+              decoration: BoxDecoration(
+                color: Color(0xffFFC532),
+                borderRadius: BorderRadius.circular(53),
+              ),
+              child: TextButton(
+                onPressed: (){},
+                  child: Text('Checkout Now')),
+            ),
           ],
         ),
       ),
