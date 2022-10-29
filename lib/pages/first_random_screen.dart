@@ -190,7 +190,7 @@ class FirstRandomScreen extends StatelessWidget {
               ),
               child: TextButton(
                 onPressed: (){},
-                  child: Text('Checkout Now')),
+                  child: Text('Checkout Now', style: checkoutTitleTextStyle,)),
             ),
             SizedBox(height: 17),
             Container(
@@ -202,7 +202,7 @@ class FirstRandomScreen extends StatelessWidget {
               ),
               child: TextButton(
                   onPressed: (){},
-                  child: Text('Save to Wishlist')),
+                  child: Text('Save to Wishlist', style: wishlistTitleTextStyle,)),
             ),
           ],
         ),
