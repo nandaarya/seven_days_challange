@@ -8,6 +8,7 @@ class SecondRandomScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
+          Image.asset('assets/images/cover.png'),
           Text('Arrina La'),
           Text('Bali, Dekat Bandung'),
           Text('About'),
