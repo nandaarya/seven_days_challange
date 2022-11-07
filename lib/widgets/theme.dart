@@ -154,14 +154,14 @@ TextStyle secondTitle = GoogleFonts.poppins(
 );
 
 TextStyle subsecondTitle = GoogleFonts.poppins(
-  color: Color(0xff191919),
-  fontWeight: FontWeight.w200,
+  color: Color(0xff000000),
+  fontWeight: FontWeight.w300,
   fontSize: 16,
 );
 
 TextStyle aboutsecondTitle = GoogleFonts.poppins(
-  color: Color(0xff191919),
-  fontWeight: FontWeight.w300,
+  color: Color(0xff000000),
+  fontWeight: FontWeight.w400,
   fontSize: 16,
 );
 

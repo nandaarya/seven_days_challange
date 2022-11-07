@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:seven_days_challange/widgets/theme.dart';
 
 class SecondRandomScreen extends StatelessWidget {
   const SecondRandomScreen({Key? key}) : super(key: key);
@@ -10,16 +11,16 @@ class SecondRandomScreen extends StatelessWidget {
         children: [
           Image.asset('assets/images/cover.png'),
           SizedBox(height: 20),
-          Text('Arrina La'),
+          Text('Arrina La', style: secondTitle,),
           SizedBox(height: 2),
-          Text('Bali, Dekat Bandung'),
+          Text('Bali, Dekat Bandung', style: subsecondTitle,),
           SizedBox(height: 25),
           Container(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('About'),
-                Text('Pantai Pandawa adalah salah satu para\nkawasan wisata di area Kuta selatan sana\nKabupaten Dekat Bandung, Bali.'),
+                Text('About', style: aboutsecondTitle,),
+                Text('Pantai Pandawa adalah salah satu para\nkawasan wisata di area Kuta selatan sana\nKabupaten Dekat Bandung, Bali.', style: subsecondTitle,),
               ],
             ),
           ),
