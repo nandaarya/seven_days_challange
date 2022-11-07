@@ -146,5 +146,23 @@ TextStyle wishlistTitleTextStyle = GoogleFonts.poppins(
   fontWeight: FontWeight.w600,
 );
 
+// Second Random Screen
+TextStyle secondTitle = GoogleFonts.poppins(
+  color: Color(0xff000000),
+  fontSize: 26,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle subsecondTitle = GoogleFonts.poppins(
+  color: Color(0xff191919),
+  fontWeight: FontWeight.w200,
+  fontSize: 16,
+);
+
+TextStyle aboutsecondTitle = GoogleFonts.poppins(
+  color: Color(0xff191919),
+  fontWeight: FontWeight.w300,
+  fontSize: 16,
+);
 
 

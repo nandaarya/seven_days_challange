@@ -14,12 +14,14 @@ class SecondRandomScreen extends StatelessWidget {
           SizedBox(height: 2),
           Text('Bali, Dekat Bandung'),
           SizedBox(height: 25),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text('About'),
-              Text('Pantai Pandawa adalah salah satu para\nkawasan wisata di area Kuta selatan sana\nKabupaten Dekat Bandung, Bali.'),
-            ],
+          Container(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('About'),
+                Text('Pantai Pandawa adalah salah satu para\nkawasan wisata di area Kuta selatan sana\nKabupaten Dekat Bandung, Bali.'),
+              ],
+            ),
           ),
           Text('Booking Now'),
         ],
