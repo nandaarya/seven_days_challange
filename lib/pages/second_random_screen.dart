@@ -21,10 +21,11 @@ class SecondRandomScreen extends StatelessWidget {
               children: [
                 Text('About', style: aboutsecondTitle,),
                 Text('Pantai Pandawa adalah salah satu para\nkawasan wisata di area Kuta selatan sana\nKabupaten Dekat Bandung, Bali.', style: subsecondTitle,),
+                SizedBox(height: 26,),
+                Text('Booking Now'),
               ],
             ),
           ),
-          Text('Booking Now'),
         ],
       ),
     );
