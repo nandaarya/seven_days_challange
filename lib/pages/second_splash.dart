@@ -22,7 +22,9 @@ class SecondSplash extends StatelessWidget {
                 width: 51,
                 height: 51,
               ),
-              SizedBox(width: 13.6,),
+              SizedBox(
+                width: 13.6,
+              ),
               Text(
                 'HouseQu',
                 style: GoogleFonts.montserrat(

@@ -14,7 +14,7 @@ import 'package:seven_days_challange/pages/second_sign_in.dart';
 import 'package:seven_days_challange/pages/second_splash.dart';
 import 'package:seven_days_challange/pages/second_started.dart';
 
-void main () => runApp(SevenDays());
+void main() => runApp(SevenDays());
 
 class SevenDays extends StatelessWidget {
   const SevenDays({Key? key}) : super(key: key);

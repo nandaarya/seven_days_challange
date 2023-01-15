@@ -10,7 +10,7 @@ class SecondSignIn extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.only(left: 28, right: 28,top: 64),
+          padding: const EdgeInsets.only(left: 28, right: 28, top: 64),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -21,7 +21,9 @@ class SecondSignIn extends StatelessWidget {
                   height: 279,
                 ),
               ),
-              SizedBox(height: 53,),
+              SizedBox(
+                height: 53,
+              ),
               Text(
                 'Email Address',
                 style: GoogleFonts.openSans(
@@ -67,7 +69,9 @@ class SecondSignIn extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 50,),
+              SizedBox(
+                height: 50,
+              ),
               Container(
                 height: 55,
                 width: double.infinity,

@@ -24,7 +24,7 @@ class FirstStarted extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.only(left: 74.0, right: 74.0),
                     child: Text(
-                        'Maximize Revenue',
+                      'Maximize Revenue',
                       style: GoogleFonts.poppins(
                         color: Color(0xffFFFFFF),
                         fontSize: 24,
@@ -36,10 +36,10 @@ class FirstStarted extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.only(left: 39.0, right: 36.0),
                     child: Text(
-                        'Gain more profit from cryptocurrency without any risk involved',
+                      'Gain more profit from cryptocurrency without any risk involved',
                       textAlign: TextAlign.center,
                       style: GoogleFonts.poppins(
-                        color : Color(0xffFFFFFF),
+                        color: Color(0xffFFFFFF),
                         fontSize: 16,
                         fontWeight: FontWeight.normal,
                       ),
@@ -50,7 +50,8 @@ class FirstStarted extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 148.0, right: 147.0),
                     child: Image.asset(
                       'assets/images/purple_icon.png',
-                      width: 80, height: 80,
+                      width: 80,
+                      height: 80,
                     ),
                   ),
                 ],

@@ -11,7 +11,8 @@ class FirstSplash extends StatelessWidget {
       body: Column(
         children: [
           Padding(
-            padding: const EdgeInsets.only(right: 118.0, left: 118.0, top: 230.0),
+            padding:
+                const EdgeInsets.only(right: 118.0, left: 118.0, top: 230.0),
             child: Center(
               child: Image.asset(
                 'assets/images/sword_icon.png',

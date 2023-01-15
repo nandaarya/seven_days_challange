@@ -39,19 +39,20 @@ class FirstEmptyState extends StatelessWidget {
                 width: 200,
                 child: TextButton(
                   onPressed: () {},
-                    style: TextButton.styleFrom(
-                      backgroundColor: Color(0xffF94593),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(17),
-                      ),
+                  style: TextButton.styleFrom(
+                    backgroundColor: Color(0xffF94593),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(17),
                     ),
-                    child: Text('Done',
-                      style: GoogleFonts.openSans(
-                        color: Color(0xffF8F8F8),
-                        fontSize: 18,
-                        fontWeight: FontWeight.w600,
-                      ),
+                  ),
+                  child: Text(
+                    'Done',
+                    style: GoogleFonts.openSans(
+                      color: Color(0xffF8F8F8),
+                      fontSize: 18,
+                      fontWeight: FontWeight.w600,
                     ),
+                  ),
                 ),
               ),
             ],

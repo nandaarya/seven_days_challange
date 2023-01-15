@@ -164,5 +164,3 @@ TextStyle aboutsecondTitle = GoogleFonts.poppins(
   fontWeight: FontWeight.w400,
   fontSize: 16,
 );
-
-

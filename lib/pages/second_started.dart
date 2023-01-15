@@ -17,16 +17,14 @@ class SecondStarted extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 40),
               child: Text(
-                  'Health First.',
+                'Health First.',
                 style: GoogleFonts.poppins(
-                  fontSize: 24,
-                  fontWeight: FontWeight.w600
-                ),
+                    fontSize: 24, fontWeight: FontWeight.w600),
               ),
             ),
             SizedBox(height: 16),
             Text(
-                'Exercise together with our best community fit in the world',
+              'Exercise together with our best community fit in the world',
               style: GoogleFonts.poppins(
                 color: Color(0xff828284),
                 fontSize: 16,
@@ -45,7 +43,7 @@ class SecondStarted extends StatelessWidget {
                     crossAxisCellCount: 1,
                     mainAxisCellCount: 1.6,
                     child: Image.asset(
-                        'assets/images/started_1.png',
+                      'assets/images/started_1.png',
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -53,7 +51,7 @@ class SecondStarted extends StatelessWidget {
                     crossAxisCellCount: 1,
                     mainAxisCellCount: 1,
                     child: Image.asset(
-                        'assets/images/started_2.png',
+                      'assets/images/started_2.png',
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -62,7 +60,7 @@ class SecondStarted extends StatelessWidget {
                     mainAxisCellCount: 1.6,
                     child: Container(
                       child: Image.asset(
-                          'assets/images/started_3.png',
+                        'assets/images/started_3.png',
                         fit: BoxFit.cover,
                       ),
                       color: Colors.yellowAccent,
@@ -86,7 +84,7 @@ class SecondStarted extends StatelessWidget {
               color: Color(0xffAFEA0D),
               child: Center(
                 child: Text(
-                    'Shape My Body',
+                  'Shape My Body',
                   style: GoogleFonts.lato(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
@@ -97,7 +95,7 @@ class SecondStarted extends StatelessWidget {
             SizedBox(height: 20),
             Center(
               child: Text(
-                  'Terms & Conditions',
+                'Terms & Conditions',
                 style: GoogleFonts.poppins(
                   color: Color(0xff757575),
                   fontSize: 16,
