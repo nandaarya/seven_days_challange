@@ -13,20 +13,20 @@ class FirstPricingScreen extends StatelessWidget {
           child: Column(
             children: [
               Image.asset('assets/images/mahkota.png', height: 100, width: 100),
-              SizedBox(height: 48),
+              const SizedBox(height: 48),
               Text(
                 'Which one you wish\nto Upgrade?',
                 textAlign: TextAlign.center,
                 style: titleTextStyle,
               ),
-              SizedBox(height: 50),
+              const SizedBox(height: 50),
               Container(
                 width: 315,
                 height: 100,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(39),
                   border: Border.all(
-                    color: Color(0xffD9DEEA),
+                    color: const Color(0xffD9DEEA),
                     width: 2,
                   ),
                 ),
@@ -63,14 +63,14 @@ class FirstPricingScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 24),
+              const SizedBox(height: 24),
               Container(
                 width: 315,
                 height: 100,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(39),
                   border: Border.all(
-                    color: Color(0xffD9DEEA),
+                    color: const Color(0xffD9DEEA),
                     width: 2,
                   ),
                 ),
@@ -101,14 +101,14 @@ class FirstPricingScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 24),
+              const SizedBox(height: 24),
               Container(
                 width: 315,
                 height: 100,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(39),
                   border: Border.all(
-                    color: Color(0xffD9DEEA),
+                    color: const Color(0xffD9DEEA),
                     width: 2,
                   ),
                 ),
@@ -145,7 +145,7 @@ class FirstPricingScreen extends StatelessWidget {
                   child: Container(
                     width: double.infinity,
                     height: 70,
-                    color: Color(0xff6050E7),
+                    color: const Color(0xff6050E7),
                     child: Padding(
                       padding: const EdgeInsets.only(left: 30, right: 30),
                       child: Row(
