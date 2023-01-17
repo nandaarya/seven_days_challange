@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
@@ -22,17 +21,17 @@ class SecondStarted extends StatelessWidget {
                     fontSize: 24, fontWeight: FontWeight.w600),
               ),
             ),
-            SizedBox(height: 16),
+            const SizedBox(height: 16),
             Text(
               'Exercise together with our best community fit in the world',
               style: GoogleFonts.poppins(
-                color: Color(0xff828284),
+                color: const Color(0xff828284),
                 fontSize: 16,
                 fontWeight: FontWeight.normal,
               ),
             ),
-            SizedBox(height: 50),
-            Container(
+            const SizedBox(height: 50),
+            SizedBox(
               height: 402,
               child: StaggeredGrid.count(
                 crossAxisCount: 2,
@@ -77,11 +76,11 @@ class SecondStarted extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(height: 61),
+            const SizedBox(height: 61),
             Container(
               width: double.infinity,
               height: 55,
-              color: Color(0xffAFEA0D),
+              color: const Color(0xffAFEA0D),
               child: Center(
                 child: Text(
                   'Shape My Body',
@@ -92,12 +91,12 @@ class SecondStarted extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Center(
               child: Text(
                 'Terms & Conditions',
                 style: GoogleFonts.poppins(
-                  color: Color(0xff757575),
+                  color: const Color(0xff757575),
                   fontSize: 16,
                   fontWeight: FontWeight.normal,
                   decoration: TextDecoration.underline,

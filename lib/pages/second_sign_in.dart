@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SecondSignIn extends StatelessWidget {
@@ -21,24 +20,24 @@ class SecondSignIn extends StatelessWidget {
                   height: 279,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 53,
               ),
               Text(
                 'Email Address',
                 style: GoogleFonts.openSans(
-                  color: Color(0xff17171A),
+                  color: const Color(0xff17171A),
                 ),
               ),
-              SizedBox(height: 6),
+              const SizedBox(height: 6),
               TextFormField(
                 style: GoogleFonts.openSans(
-                  color: Color(0xff17171A),
+                  color: const Color(0xff17171A),
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
                 ),
                 decoration: InputDecoration(
-                  fillColor: Color(0xffF3F3F3),
+                  fillColor: const Color(0xffF3F3F3),
                   filled: true,
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(71),
@@ -46,22 +45,22 @@ class SecondSignIn extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               Text(
                 'Password',
                 style: GoogleFonts.openSans(
-                  color: Color(0xff17171A),
+                  color: const Color(0xff17171A),
                 ),
               ),
-              SizedBox(height: 6),
+              const SizedBox(height: 6),
               TextFormField(
                 style: GoogleFonts.openSans(
-                  color: Color(0xff17171A),
+                  color: const Color(0xff17171A),
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
                 ),
                 decoration: InputDecoration(
-                  fillColor: Color(0xffF3F3F3),
+                  fillColor: const Color(0xffF3F3F3),
                   filled: true,
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(71),
@@ -69,16 +68,16 @@ class SecondSignIn extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
-              Container(
+              SizedBox(
                 height: 55,
                 width: double.infinity,
                 child: TextButton(
                   onPressed: () {},
                   style: TextButton.styleFrom(
-                    backgroundColor: Color(0xff5468FF),
+                    backgroundColor: const Color(0xff5468FF),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(60),
                     ),
@@ -86,15 +85,15 @@ class SecondSignIn extends StatelessWidget {
                   child: Text(
                     'Log In',
                     style: GoogleFonts.openSans(
-                      color: Color(0xffF8F8F8),
+                      color: const Color(0xffF8F8F8),
                       fontSize: 18,
                       fontWeight: FontWeight.w600,
                     ),
                   ),
                 ),
               ),
-              SizedBox(height: 10),
-              Container(
+              const SizedBox(height: 10),
+              SizedBox(
                 height: 55,
                 width: double.infinity,
                 child: TextButton(
@@ -102,7 +101,7 @@ class SecondSignIn extends StatelessWidget {
                   style: TextButton.styleFrom(
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(60),
-                      side: BorderSide(
+                      side: const BorderSide(
                         color: Color(0xffE5E5E5),
                       ),
                     ),
@@ -110,7 +109,7 @@ class SecondSignIn extends StatelessWidget {
                   child: Text(
                     'Create New Account',
                     style: GoogleFonts.openSans(
-                      color: Color(0xffCFCFCF),
+                      color: const Color(0xffCFCFCF),
                       fontSize: 18,
                       fontWeight: FontWeight.normal,
                     ),

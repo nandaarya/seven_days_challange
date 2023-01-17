@@ -7,7 +7,7 @@ class SecondSplash extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
           image: DecorationImage(
               image: AssetImage('assets/images/background.png'),
               fit: BoxFit.cover)),
@@ -22,13 +22,13 @@ class SecondSplash extends StatelessWidget {
                 width: 51,
                 height: 51,
               ),
-              SizedBox(
+              const SizedBox(
                 width: 13.6,
               ),
               Text(
                 'HouseQu',
                 style: GoogleFonts.montserrat(
-                  color: Color(0xff000000),
+                  color: const Color(0xff000000),
                   fontWeight: FontWeight.bold,
                   fontSize: 32.3,
                 ),
