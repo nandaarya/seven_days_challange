@@ -7,7 +7,7 @@ class SecondEmptyState extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff1B1B33),
+      backgroundColor: const Color(0xff1B1B33),
       body: Center(
         child: Column(
           children: [
@@ -18,26 +18,26 @@ class SecondEmptyState extends StatelessWidget {
                 width: double.infinity,
               ),
             ),
-            SizedBox(height: 68),
+            const SizedBox(height: 68),
             Text(
               'Boost Profit!',
               style: GoogleFonts.poppins(
-                color: Color(0xffFFFFFF),
+                color: const Color(0xffFFFFFF),
                 fontSize: 24,
                 fontWeight: FontWeight.w600,
               ),
             ),
-            SizedBox(height: 16),
+            const SizedBox(height: 16),
             Text(
               'Our tools are helping business \nto grow much faster',
               textAlign: TextAlign.center,
               style: GoogleFonts.poppins(
-                color: Color(0xffFFFFFF),
+                color: const Color(0xffFFFFFF),
                 fontSize: 16,
                 fontWeight: FontWeight.w300,
               ),
             ),
-            SizedBox(height: 59),
+            const SizedBox(height: 59),
             Image.asset(
               'assets/images/roket.png',
               height: 65,
