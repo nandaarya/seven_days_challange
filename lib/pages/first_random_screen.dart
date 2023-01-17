@@ -7,7 +7,7 @@ class FirstRandomScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffE5E5E5),
+      backgroundColor: const Color(0xffE5E5E5),
       body: Padding(
         padding: const EdgeInsets.only(
           left: 30,
@@ -21,11 +21,11 @@ class FirstRandomScreen extends StatelessWidget {
               'My Shopping Cart',
               style: title3TextStyle,
             ),
-            SizedBox(height: 30),
+            const SizedBox(height: 30),
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
-                color: Color(0xffFFFFFF),
+                color: const Color(0xffFFFFFF),
               ),
               child: Padding(
                 padding: const EdgeInsets.all(10),
@@ -35,7 +35,7 @@ class FirstRandomScreen extends StatelessWidget {
                       children: [
                         Image.asset('assets/images/burger.png',
                             width: 80, height: 80),
-                        SizedBox(width: 16),
+                        const SizedBox(width: 16),
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
@@ -51,7 +51,7 @@ class FirstRandomScreen extends StatelessWidget {
                         )
                       ],
                     ),
-                    SizedBox(height: 13),
+                    const SizedBox(height: 13),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -62,12 +62,12 @@ class FirstRandomScreen extends StatelessWidget {
                               width: 22,
                               height: 22,
                             ),
-                            SizedBox(width: 8),
+                            const SizedBox(width: 8),
                             Text(
                               '2',
                               style: priceTextStyle,
                             ),
-                            SizedBox(width: 8),
+                            const SizedBox(width: 8),
                             Image.asset(
                               'assets/images/icon_random2.png',
                               width: 22,
@@ -85,11 +85,11 @@ class FirstRandomScreen extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
-                color: Color(0xffFFFFFF),
+                color: const Color(0xffFFFFFF),
               ),
               child: Padding(
                 padding: const EdgeInsets.all(10),
@@ -99,7 +99,7 @@ class FirstRandomScreen extends StatelessWidget {
                       children: [
                         Image.asset('assets/images/mojito.png',
                             width: 80, height: 80),
-                        SizedBox(width: 16),
+                        const SizedBox(width: 16),
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
@@ -115,7 +115,7 @@ class FirstRandomScreen extends StatelessWidget {
                         )
                       ],
                     ),
-                    SizedBox(height: 13),
+                    const SizedBox(height: 13),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -126,12 +126,12 @@ class FirstRandomScreen extends StatelessWidget {
                               width: 22,
                               height: 22,
                             ),
-                            SizedBox(width: 8),
+                            const SizedBox(width: 8),
                             Text(
                               '5',
                               style: priceTextStyle,
                             ),
-                            SizedBox(width: 8),
+                            const SizedBox(width: 8),
                             Image.asset(
                               'assets/images/icon_random2.png',
                               width: 22,
@@ -149,11 +149,11 @@ class FirstRandomScreen extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
-                color: Color(0xffFFFFFF),
+                color: const Color(0xffFFFFFF),
               ),
               child: Padding(
                 padding: const EdgeInsets.all(10),
@@ -161,17 +161,17 @@ class FirstRandomScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text('Informations', style: itemTitleTextStyle,),
-                    SizedBox(height: 10),
+                    const SizedBox(height: 10),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [Text('Sub total', style: infoTextStyle,), Text('\$600.00', style: priceTextStyle,)],
                     ),
-                    SizedBox(height: 10),
+                    const SizedBox(height: 10),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [Text('Delivery', style: infoTextStyle), Text('\$80.00', style: priceTextStyle,)],
                     ),
-                    SizedBox(height: 10),
+                    const SizedBox(height: 10),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [Text('Total', style: infoTextStyle), Text('\$680.00', style: priceTextStyle,)],
@@ -180,24 +180,24 @@ class FirstRandomScreen extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 35),
+            const SizedBox(height: 35),
             Container(
               width: double.infinity,
               height: 60,
               decoration: BoxDecoration(
-                color: Color(0xffFFC532),
+                color: const Color(0xffFFC532),
                 borderRadius: BorderRadius.circular(53),
               ),
               child: TextButton(
                 onPressed: (){},
                   child: Text('Checkout Now', style: checkoutTitleTextStyle,)),
             ),
-            SizedBox(height: 17),
+            const SizedBox(height: 17),
             Container(
               width: double.infinity,
               height: 60,
               decoration: BoxDecoration(
-                color: Color(0xffD9D9D9),
+                color: const Color(0xffD9D9D9),
                 borderRadius: BorderRadius.circular(53),
               ),
               child: TextButton(

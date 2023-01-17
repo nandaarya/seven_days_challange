@@ -7,7 +7,7 @@ class FirstRatingRating extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff181925),
+      backgroundColor: const Color(0xff181925),
       body: Padding(
         padding: const EdgeInsets.only(right: 37, left: 37, top: 80),
         child: Column(
@@ -17,17 +17,17 @@ class FirstRatingRating extends StatelessWidget {
               width: 200,
               height: 200,
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Text(
               'Pizza Ballado',
               style: foodTextStyle,
             ),
-            SizedBox(height: 4),
+            const SizedBox(height: 4),
             Text(
               '\$90,00',
               style: pricingTextStyle,
             ),
-            SizedBox(height: 90),
+            const SizedBox(height: 90),
             Container(
               alignment: AlignmentDirectional.bottomStart,
               child: Text(
@@ -35,7 +35,7 @@ class FirstRatingRating extends StatelessWidget {
                 style: questionTextStyle,
               ),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -61,13 +61,13 @@ class FirstRatingRating extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(height: 90),
+            const SizedBox(height: 90),
             Container(
               width: 211,
               height: 55,
               alignment: AlignmentDirectional.center,
               decoration: BoxDecoration(
-                color: Color(0xff34D186),
+                color: const Color(0xff34D186),
                 borderRadius: BorderRadius.circular(60),
               ),
               child: Text(
