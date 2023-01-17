@@ -7,7 +7,7 @@ class FirstSplash extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff13131E),
+      backgroundColor: const Color(0xff13131E),
       body: Column(
         children: [
           Padding(
@@ -21,11 +21,11 @@ class FirstSplash extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 170),
+          const SizedBox(height: 170),
           Text(
             'V E N T U R E',
             style: GoogleFonts.dmSerifDisplay(
-              color: Color(0xffFFFFFF),
+              color: const Color(0xffFFFFFF),
               fontSize: 32,
             ),
           ),
